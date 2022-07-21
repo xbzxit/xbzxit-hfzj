@@ -1,0 +1,103 @@
+.page {
+    max-width: 1555px;
+}
+
+.home {
+    max-width: 1555px !important;
+}
+
+body {
+    font-size: 13px !important;
+}
+
+.home .hero img {
+    max-height: 140px !important;
+}
+
+#app .navbar .home-link span:before {
+    display: inline-block;
+    content: '';
+    width: 80px;
+    height: 45px;
+	margin-right: 6px;
+    background: url(../images/code_hf.png) no-repeat;
+    background-size: 100% 100%;
+    vertical-align: middle;
+}
+
+.getting-started .outbound, .nav-links .outbound, .icon.outbound {
+  display: none !important;
+}
+
+.getting-started a img {
+  margin-right: 8px !important;
+}
+
+.getting-started a img.no-margin {
+  margin-right: 0px !important;
+}
+.search-box input {
+    cursor: text;
+    width: 17rem !important;
+}
+
+blockquote {
+  font-size: 15px !important;
+  color: #858585 !important;
+  border-left: 0.25rem solid #42b983 !important;
+  font-weight: 1000 !important;
+}
+
+.page-nav {
+    margin-left: 200px !important;
+    max-width: 1500px !important;
+}
+
+.theme-default-content:not(.custom) {
+    margin-left: 189px !important;
+    max-width: 1500px !important;
+}
+
+.suggestions .highlight{
+    color: #3eaf7c;
+    font-weight: bold
+}
+
+.my-nav-item {
+    width: 230px;
+    min-height: 76px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px 0 rgb(0 0 0 / 10%);
+}
+
+.cc-nav-des {
+    width: 200px;
+    margin-top: 10px;
+    font-size: 13px;
+    color: #999;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    height: 37px;
+    margin-bottom: 5px;
+}
+
+.cc-row-gutter-20 {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.cc-row {
+    box-sizing: border-box;
+    float: left;
+}
+
+h2 {
+    clear: both;
+}

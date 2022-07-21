@@ -1,0 +1,23 @@
+{
+  "name": "xbzxit-hfzj",
+  "version": "1.0.0",
+  "description": "xbzxit-hfzj",
+  "main": "index.js",
+  "scripts": {
+    "start": "vuepress dev docs",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "keywords": [],
+  "author": "zhangjun.huangfu",
+  "license": "MIT",
+  "dependencies": {
+    "chart": "^0.1.2",
+    "math": "^0.0.3",
+    "vuepress": "^1.8.2"
+  },
+  "devDependencies": {
+    "vue-cli-plugin-vuetify": "~2.4.3",
+    "vuepress-plugin-fulltext-search": "^2.2.1"
+  }
+}
