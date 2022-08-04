@@ -1,4 +1,4 @@
-# Seleniium换件搭建
+# Seleniium环境搭建
 
 ## 浏览器需要的驱动
 
@@ -73,7 +73,6 @@ Selenium 版本到3.5
 
 安装浏览器版本55 -60之间
 
-
 ![image.png](./assets/1657679383729-image.png)
 
 https://github.com/mozilla/geckodriver/releases
@@ -81,7 +80,6 @@ https://github.com/mozilla/geckodriver/releases
 https://firefox-source-docs.mozilla.org/testing/geckodriver/Support.html
 
 http://ftp.mozilla.org/pub/firefox/releases/
-
 
 ![image.png](./assets/1657692608759-image.png)
 

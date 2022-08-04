@@ -242,43 +242,43 @@ module.exports = {
                     {
                         text: '测试入门',
                         items : [
-                            {
-                                text : '测试用例设计',
-                                link : '/autotest/started/b_testPlanTools/'
-                            },
+                            // {
+                            //     text : '测试用例设计',
+                            //     link : ''
+                            // },
                             {
                                 text : '测试计划与工具',
                                 link : '/autotest/started/b_testPlanTools/'
                             },
-                            {
-                                text : '企业环境搭建',
-                                link : '/autotest/started/b_testPlanTools/'
-                            },
-                            {
-                                text : '数据库操作',
-                                link : '/autotest/started/b_testPlanTools/'
-                            },
+                            // {
+                            //     text : '企业环境搭建',
+                            //     link : ''
+                            // },
+                            // {
+                            //     text : '数据库操作',
+                            //     link : ''
+                            // },
                         ],
                     },
                     {
                         text: '测试初级',
                         items : [
+                            // {
+                            //     text : 'Python编程基础',
+                            //     link : ''
+                            // },
+                            // {
+                            //     text : '前端知识',
+                            //     link : ''
+                            // },
                             {
-                                text : 'Python编程基础',
-                                link : '/autotest/elementary/j_shell/'
+                                text : 'WEB自动化',
+                                link : '/autotest/elementary/h_webAuto/'
                             },
-                            {
-                                text : '前端知识',
-                                link : '/autotest/elementary/j_shell/'
-                            },
-                            {
-                                text : 'web端自动化测试',
-                                link : '/autotest/elementary/j_shell/'
-                            },
-                            {
-                                text : '单元测试',
-                                link : '/autotest/elementary/j_shell/'
-                            },
+                            // {
+                            //     text : '单元测试',
+                            //     link : ''
+                            // },
                             {
                                 text : 'shell脚本',
                                 link : '/autotest/elementary/j_shell/'
@@ -300,18 +300,18 @@ module.exports = {
                                 text : '微信小程序',
                                 link : '/autotest/middleLevel/miniprogram/'
                             },
-                            {
-                                text : 'Redis',
-                                link : '/autotest/elementary/k_interface/'
-                            },
-                            {
-                                text : '数据结构',
-                                link : '/autotest/elementary/k_interface/'
-                            },
-                            {
-                                text : '数据库综合演练',
-                                link : '/autotest/elementary/k_interface/'
-                            },
+                            // {
+                            //     text : 'Redis',
+                            //     link : ''
+                            // },
+                            // {
+                            //     text : '数据结构',
+                            //     link : ''
+                            // },
+                            // {
+                            //     text : '数据库综合演练',
+                            //     link : ''
+                            // },
                         ],
                     },
                     {
@@ -703,6 +703,20 @@ module.exports = {
                 children : [
                     '',
                     'document/QC',
+                ]
+            }],
+            '/autotest/elementary/h_webAuto/' : [{
+                title : 'WEB自动化',
+                collapsable : false,
+                children : [
+                    '',
+                    'document/Selenium环境搭建',
+                    'document/常用选择器定位_Python',
+                    'document/其他对象定位_Python',
+                    'document/UnitTest_Python',
+                    'document/PO模型_Python',
+                    'document/Json_Python',
+                    'document/Log_Java',
                 ]
             }],
             '/autotest/elementary/j_shell/' : [{
