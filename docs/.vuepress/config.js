@@ -715,8 +715,8 @@ module.exports = {
                     'document/其他对象定位_Python',
                     'document/UnitTest_Python',
                     'document/PO模型_Python',
-                    'document/Json_Python',
-                    'document/Log_Java',
+                    'document/JsonDict_Python',
+                    'document/Logging_Python',
                 ]
             }],
             '/autotest/elementary/j_shell/' : [{

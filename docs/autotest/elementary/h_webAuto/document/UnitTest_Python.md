@@ -222,7 +222,6 @@ class TestTphopLogin(unittest.TestCase):
 
 ```
 
-
 ## 参数化
 
 ### 推荐使用
@@ -292,5 +291,58 @@ class Test01(unittest.TestCase):
     @parameterized.expand(get_data())
     def test_add_more(self, a, b, result):
         print("{}+{}={}:".format(a, b, result))
+
+```
+
+
+## Skip
+
+> skip  可以定义在类或者函数上，如果一个函数暂时没有实现或者因为某种原因不能测试可以加该注解进行忽略
+>
+> skipIf  可以定义在类或者函数上，如果一个函数在什么样的条件下不需要执行可以加该注解
+
+```python
+import unittest
+
+version = 1
+
+
+# 新建测试类
+# @unittest.skip("Test01方法功能暂未实现")
+@unittest.skipIf(version > 25, "版本大于25了，跳过此用例！")
+class Test01(unittest.TestCase):
+    # 新建测试方法 1
+    # @unittest.skip("test01方法功能暂未实现")
+    def test01(self):
+        print("test01")
+        """此方法功能暂未完T成"""
+        pass
+
+    # 新建测试方法 2
+    # @unittest.skipIf(version > 25, "版本大于25了，跳过此用例！")
+    def test02(self):
+        print("test02")
+
+```
+
+
+## 测试报告
+
+```python
+import time
+# 导包
+import unittest
+
+from tools.HTMLTestRunner import HTMLTestRunner
+
+# 定义 测试套件 case目录下以 test开头的脚本
+suite = unittest.defaultTestLoader.discover("./case", pattern="test*.py")
+# 定义报告存放路径及文件名称
+report_dir = "./report/{}.html".format(time.strftime("%Y_%m_%d %H_%M_%S"))
+# 获取报告文件流 并执行
+with open(report_dir, "wb") as f:
+    HTMLTestRunner(stream=f,
+                   title="自动化测试报告",
+                   description="操作系统 win10").run(suite)
 
 ```

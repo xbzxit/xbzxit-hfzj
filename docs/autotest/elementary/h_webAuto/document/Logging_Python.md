@@ -1,4 +1,4 @@
-# logging
+# Logging_Python
 
 ## 设置日志级别
 
@@ -31,7 +31,6 @@ logging.critical("this is a critical...")
 fm = "%(asctime)s %(levelname)s [%(name)s] [%(filename)s (%(funcName)s:%(lineno)d] - %(message)s"
 logging.basicConfig(level=logging.DEBUG, format=fm, filename="./log/log01.log")
 ```
-
 
 ## 日志推荐使用方式
 
