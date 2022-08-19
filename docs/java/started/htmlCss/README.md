@@ -2,7 +2,7 @@
 
 <h1 align="center">HTML CSS</h1>
 
-<p align="center">web页面基础</p>
+<p align="center">WEB页面基础</p>
 
 ::: tip 提示
 
