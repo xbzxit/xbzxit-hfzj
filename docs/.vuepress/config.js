@@ -68,6 +68,7 @@ module.exports = {
                     {
                         text: 'Java中级',
                         items : [
+                            {text : 'Nginx', link : '/java/middleLevel/Nginx/'},
                             {text : 'SpringSecurity', link : '/java/middleLevel/SpringSecurity/'},
                         ],
                     },
@@ -596,6 +597,20 @@ module.exports = {
                     'document/mybatis问题整理'
                 ]
             }],
+            '/java/middleLevel/Nginx/' : [{
+                title : 'Nginx',
+                collapsable : false,
+                children : [
+                    '',
+                    'document/Nginx基本概念',
+                    'document/Nginx安装',
+                    'document/配置文件',
+                    'document/反向代理',
+                    'document/动静分离',
+                    'document/高可用',
+                    'document/Nginx原理'
+                ]
+            }],
             '/java/middleLevel/SpringSecurity/' : [{
                 title : 'SpringSecurity',
                 collapsable : false,
@@ -905,7 +920,7 @@ module.exports = {
                 children : [
                     '',
                     'document/Oralce恢复误删除的数据',
-                    'document/查找表重复数据'
+                    'document/数据常见操作'
                 ]
             }],
             '/database/faq/java/' : [{

@@ -10,6 +10,19 @@ pl/sql中文显示为乱码解决
 
 然后重新启动 pl/sql developer，这样检索出来的中文内容就不会是乱码了
 
+## 格式化日期的显示格式
+
+Preferences -> User Interface -> NLS Options 
+Date : yyyy-mm-dd
+Time : hh24:mi:ss
+
+环境变量
+
+nls_date_format=YYYY-MM-DD HH24:MI:SS
+
+nls_timestamp_format=YYYY-MM-DD HH24:MI:SS
+
+
 ## 保存登录用户名密码
 
 1 保存用户名
