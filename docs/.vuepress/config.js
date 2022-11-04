@@ -590,6 +590,7 @@ module.exports = {
                     'document/映射文件',
                     'document/动态SQL与缓存',
                     'document/逆向工程',
+                    'document/generatorConfig',
                     'document/运行原理',
                     'document/批量操作',
                     'document/注解开发',
