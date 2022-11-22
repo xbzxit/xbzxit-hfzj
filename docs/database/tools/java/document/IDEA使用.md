@@ -6,18 +6,15 @@
 
 ![image.png](./assets/1655195169084-image.png)
 
-
 ### 设置主题并自定义字体
 
 > Ctrl + `
-
 
 ![image.png](./assets/1655195381705-image.png)
 
 ### 设置编辑器背景(不推荐)
 
 ![image.png](./assets/1655195427448-image.png)
-
 
 ### 建议关闭Tab页
 
@@ -31,7 +28,6 @@
 
 ![image.png](./assets/1655196066611-image.png)
 
-
 ## 编码技巧
 
 ### 跳到指定的文件
@@ -40,25 +36,21 @@
 
 ![image.png](./assets/1655196223230-image.png)
 
-
 ### 跳转到指令文件指定行
 
 > Ctrl + Shift + N
 
 ![image.png](./assets/1655196209987-image.png)
 
-
 ### 移动分割线
 
 > 先 `Alt +1` 聚焦到Project视图，再用 `Ctrl + Shift + ← /→`来移动
-
 
 ### 添加书签 ，显示书签
 
 ![image.png](./assets/1655196320395-image.png)
 
 ![image.png](./assets/1655196336239-image.png)
-
 
 ### 多行编辑功能
 
@@ -68,7 +60,6 @@
 
 ![image.png](./assets/1655196401935-image.png)
 
-
 ### 编写JSON 自动转义，正则也支持
 
 > 使用`Alt + Enter`开启
@@ -77,13 +68,11 @@
 
 ![image.png](./assets/1655197668090-image.png)
 
-
 ### Run Anything
 
 > `运行任何命令<br/> 使用 <code>Double + Ctrl</code>`
 
 ![image.png](./assets/1655197784343-image.png)
-
 
 ### 查看类的继承关系图
 
@@ -104,7 +93,6 @@
 ### 查看某个方法的调用关系
 
 > 使用`Ctrl + Alt + H` 查看
-
 
 ## 常用快捷键
 
@@ -130,19 +118,13 @@
 
 ![image.png](./assets/1655198053536-image.png)
 
-
 ### 快捷键
 
 ![image.png](./assets/1637329108994-image.png)
 
-
 ## 自动补全
 
-
-
 ## 好用的插件
-
-
 
 ## 常用注释
 
@@ -232,3 +214,5 @@
 ```
 
 ## 快捷键
+
+## 整合tomcat
