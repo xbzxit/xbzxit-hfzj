@@ -48,6 +48,8 @@ module.exports = {
                         text: 'Java小白',
                         items : [
                             {text : 'Oracle', link : '/java/noob/oracle/'},
+                            {text : 'mysql', link : '/java/noob/mysql/'},
+                            {text : 'PostgreSql', link : '/java/noob/PostgreSql/'},
                             {text : 'Linux', link : '/java/noob/linux/'},
                         ],
                     },
@@ -412,6 +414,7 @@ module.exports = {
                             {
                                 text : '高效学习',
                                 link : '/database/basicSkills/gxxx/'
+
                             },
                             {
                                 text : 'Excel',
@@ -532,6 +535,24 @@ module.exports = {
                     'document/PLSQL触发器',
                 ]
             }],
+            '/java/noob/mysql/' : [{
+                title : 'mysql',
+                collapsable : false,
+                children : [
+                    '',
+                    'document/Linux安装mysql',
+                ]
+            }],
+
+            '/java/noob/PostgreSql/' : [{
+                title : 'PostgreSql',
+                collapsable : false,
+                children : [
+                    '',
+                    'document/安装',
+                ]
+            }],
+
             '/java/noob/linux/' : [{
                 title : 'Linux',
                 collapsable : false,
