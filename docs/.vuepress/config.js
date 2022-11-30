@@ -292,10 +292,6 @@ module.exports = {
                         text: '测试中级',
                         items : [
                             {
-                                text : '接口及性能测试',
-                                link : '/autotest/middleLevel/interfPerfTest/'
-                            },
-                            {
                                 text : '移动端自动化',
                                 link : '/autotest/middleLevel/appTest/'
                             },
@@ -303,6 +299,15 @@ module.exports = {
                                 text : '微信小程序',
                                 link : '/autotest/middleLevel/miniprogram/'
                             },
+                            {
+                                text : '接口及性能测试',
+                                link : '/autotest/middleLevel/interfaceTest/'
+                            },
+                            {
+                                text : '接口及性能测试',
+                                link : '/autotest/middleLevel/performTest/'
+                            },
+
                             // {
                             //     text : 'Redis',
                             //     link : ''
@@ -785,8 +790,8 @@ module.exports = {
                 ]
             }],
 
-            '/autotest/middleLevel/interfPerfTest/' : [{
-                title : '接口与性能测试',
+            '/autotest/middleLevel/interfaceTest/' : [{
+                title : '接口测试',
                 collapsable : false,
                 children : [
                     '',
@@ -811,6 +816,27 @@ module.exports = {
                     // 'document/性能测试控制器',
                     // 'document/性能测试定时器',
                     // 'document/项目实战',
+                ]
+            }],
+            '/autotest/middleLevel/performTest/' : [{
+                title : '性能测试',
+                collapsable : false,
+                children : [
+                    '',
+                    'document/Jmeter概念策略指标流程',
+                    'document/Jmeter环境搭建',
+                    'document/Jmeter功能概要',
+                    'document/Jmeter元件及基本作用域',
+                    'document/JMeter第一个案例',
+                    'document/Jmeter三个重要组件',
+                    'document/Jmeter参数化',
+                    'document/Jmeter断言',
+                    'document/Jmeter关联',
+                    'document/Jmeter自动录制脚本',
+                    'document/Jmeter直连数据库',
+                    'document/Jmeter逻辑控制器',
+                    'document/Jmeter定时器',
+                    'document/项目实战',
                 ]
             }],
             '/autotest/middleLevel/appTest/' : [{
