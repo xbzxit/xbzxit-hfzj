@@ -300,11 +300,11 @@ module.exports = {
                                 link : '/autotest/middleLevel/miniprogram/'
                             },
                             {
-                                text : '接口及性能测试',
+                                text : '接口测试',
                                 link : '/autotest/middleLevel/interfaceTest/'
                             },
                             {
-                                text : '接口及性能测试',
+                                text : '性能测试',
                                 link : '/autotest/middleLevel/performTest/'
                             },
 
