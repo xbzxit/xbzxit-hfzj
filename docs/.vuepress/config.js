@@ -766,7 +766,7 @@ module.exports = {
                 collapsable : false,
                 children : [
                     '',
-                    'document/',
+                    'document/Shell基础语法',
                 ]
             }],
             '/autotest/elementary/k_interface/' : [{
@@ -856,7 +856,7 @@ module.exports = {
                     'document/小程序介绍',
                     'document/小程序项目',
                     'document/项目实战部署',
-                    'document/测试流程',
+                    'document/项目测试流程',
                     // 'document/项目实战测试点测试用例',
                     // 'document/项目实战非功能测试',
                     // 'document/测试报告',
@@ -928,8 +928,7 @@ module.exports = {
                 collapsable : false,
                 children : [
                     '',
-                    'document/快速认识Excel',
-                    'document/准确高效地获取数据',
+                    'document/UML介绍',
                 ]
             }],
             '/database/toolsclass/java/' : [{
