@@ -70,6 +70,7 @@ module.exports = {
                     {
                         text: 'Java中级',
                         items : [
+                            {text : 'RabbitMQ', link : '/java/middleLevel/RabbitMQ/'},
                             {text : 'Nginx', link : '/java/middleLevel/Nginx/'},
                             {text : 'SpringSecurity', link : '/java/middleLevel/SpringSecurity/'},
                         ],
@@ -624,6 +625,18 @@ module.exports = {
                     'document/mybatis问题整理'
                 ]
             }],
+
+            '/java/middleLevel/RabbitMQ/' : [{
+                title : 'RabbitMQ',
+                collapsable : false,
+                children : [
+                    '',
+                    'document/RabbitMQ入门',
+                    'document/消息中间件介绍',
+                    'document/JMS规范',
+                    'document/AMQP协议',
+                ]
+            }],
             '/java/middleLevel/Nginx/' : [{
                 title : 'Nginx',
                 collapsable : false,
@@ -733,7 +746,6 @@ module.exports = {
                 children : [
                     '',
                     'document/测试的目的_定义_原则',
-                    'document/软件质量模型',
                     'document/测试流程',
                     'document/案例一',
                     'document/案例二'
@@ -824,10 +836,7 @@ module.exports = {
                 children : [
                     '',
                     'document/Jmeter概念策略指标流程',
-                    'document/Jmeter环境搭建',
-                    'document/Jmeter功能概要',
-                    'document/Jmeter元件及基本作用域',
-                    'document/JMeter第一个案例',
+                    'document/Jmeter入门',
                     'document/Jmeter三个重要组件',
                     'document/Jmeter参数化',
                     'document/Jmeter断言',
