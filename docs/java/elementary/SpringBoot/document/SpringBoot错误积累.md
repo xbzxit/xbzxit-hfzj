@@ -8,7 +8,6 @@
 
 ![image.png](./assets/image.png)
 
-
 * 报错
 
 ```bash
@@ -21,7 +20,6 @@ Execution default-cli of goal org.springframework.boot:spring-boot-maven-plugin:
 mvn package spring-boot:repackage
 ```
 
-
 * 分析原因
 
 ```bash
@@ -29,15 +27,11 @@ mvn package spring-boot:repackage
 因此，为了重新打包得到Spring Boot可执行的jar文件，要避免直接执行mvn spring-boot:repackage。执行mvn package spring-boot:repackage或者mvn package即可。
 ```
 
-
-
 ## 启动类报错
 
 * 场景
 
   ![image.png](./assets/1670898623999-image.png)
-
-
 * 报错
 
 ```bash
@@ -46,7 +40,6 @@ mvn package spring-boot:repackage
 
 org.springframework.context.ApplicationContextException: Unable to start embedded container; nested exception is org.springframework.context.ApplicationContextException: Unable to start EmbeddedWebApplicationContext due to missing 
 ```
-
 
 * 解决方案
 
@@ -61,7 +54,6 @@ public class HelloWorldApplication {
 
 }
 ```
-
 
 * 分析原因
 

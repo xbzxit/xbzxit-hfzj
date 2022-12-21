@@ -65,6 +65,7 @@ module.exports = {
                     {
                         text: 'Java初级',
                         items : [
+                            {text : 'Logging', link : '/java/elementary/Logging/'},
                             {text : 'Maven', link : '/java/elementary/Maven/'},
                             {text : 'Spring', link : '/java/elementary/Spring/'},
                             {text : 'Mybatis', link : '/java/elementary/Mybatis/'},
@@ -603,6 +604,20 @@ module.exports = {
                     'document/安装Oracle11g',
                 ]
             }],
+
+            '/java/elementary/Logging/' : [{
+                title : 'Logging',
+                collapsable : false,
+                children : [
+                    '',
+                    'document/log4j概念',
+                    'document/log4j配置文件',
+                    'document/log4j集成',
+                    'document/log4jLayout详解',
+
+                ]
+            }],
+
             '/java/elementary/Maven/' : [{
                 title : 'Maven',
                 collapsable : false,
@@ -663,11 +678,10 @@ module.exports = {
                     'document/SpringBoot简介',
                     'document/SpringBoot配置文件',
                     'document/SpringBoot自动配置原理',
-                    'document/SpringBoot整合SpringMVC',
-                    'document/SpringBoot整合连接池',
-                    'document/SpringBoot整合Mybatis',
-                    'document/SpringBoot整合Redis',
-                    'document/SpringBoot项目',
+                    'document/SpringBoot日志',
+                    'document/SpringBoot整合模板引擎',
+                    'document/SpringBoot简单整合',
+                    'document/SpringBoot项目部署',
                     'document/SpringBoot错误积累'
                 ]
             }],
