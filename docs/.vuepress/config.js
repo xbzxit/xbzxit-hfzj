@@ -38,6 +38,9 @@ module.exports = {
         sidebarDepth : 5,
         search : true,
         searchMaxSuggestions : 10,
+        yuu : {
+            disableDarkTheme: true,
+        },
 
         /*顶层的导航栏*/
         nav: [
@@ -65,6 +68,7 @@ module.exports = {
                             {text : 'Maven', link : '/java/elementary/Maven/'},
                             {text : 'Spring', link : '/java/elementary/Spring/'},
                             {text : 'Mybatis', link : '/java/elementary/Mybatis/'},
+                            {text : 'SpringBoot', link : '/java/elementary/SpringBoot/'},
                         ],
                     },
                     {
@@ -73,6 +77,8 @@ module.exports = {
                             {text : 'RabbitMQ', link : '/java/middleLevel/RabbitMQ/'},
                             {text : 'Nginx', link : '/java/middleLevel/Nginx/'},
                             {text : 'SpringSecurity', link : '/java/middleLevel/SpringSecurity/'},
+                            {text : 'SpringCloud', link : '/java/middleLevel/SpringCloud/'},
+                            {text : 'SpringCloudAli', link : '/java/middleLevel/SpringCloudAli/'},
                         ],
                     },
                     {
@@ -492,6 +498,30 @@ module.exports = {
             },
 
             {
+                text: '程序员编程必备',
+                items: [
+                    {
+                        text: '基础篇',
+                        items : [
+                            {
+                                text : '计算机组成原理',
+                                link : '/cxybb/elementary/jsjzcyl/'
+                            },
+                            {
+                                text : '操作系统',
+                                link : '/cxybb/elementary/czxt/'
+                            },
+                            {
+                                text : '计算机网络',
+                                link : '/cxybb/elementary/jsjwl/'
+                            },
+                        ],
+                    },
+                ],
+            },
+
+
+            {
                 text : 'HFZJ',
                 items: [{
                     items : [
@@ -625,6 +655,23 @@ module.exports = {
                     'document/mybatis问题整理'
                 ]
             }],
+            '/java/elementary/SpringBoot/' : [{
+                title : 'SpringBoot',
+                collapsable : false,
+                children : [
+                    '',
+                    'document/SpringBoot简介',
+                    'document/SpringBoot配置文件',
+                    'document/SpringBoot自动配置原理',
+                    'document/SpringBoot整合SpringMVC',
+                    'document/SpringBoot整合连接池',
+                    'document/SpringBoot整合Mybatis',
+                    'document/SpringBoot整合Redis',
+                    'document/SpringBoot项目',
+                    'document/SpringBoot错误积累'
+                ]
+            }],
+
 
             '/java/middleLevel/RabbitMQ/' : [{
                 title : 'RabbitMQ',
@@ -660,6 +707,15 @@ module.exports = {
                     'document/入门案例'
                 ]
             }],
+            '/java/middleLevel/SpringCloud/' : [{
+                title : 'SpringCloud',
+                collapsable : false,
+                children : [
+                    '',
+                    'document/SpringCloud入门',
+                ]
+            }],
+
             '/java/middleLevel/encode/' : [{
                 title : '安全密码学',
                 collapsable : false,
@@ -910,6 +966,19 @@ module.exports = {
                 ]
             }],
             //endregion
+
+
+            '/cxybb/elementary/jsjzcyl/' : [{
+                title : '计算机组成原理',
+                collapsable : false,
+                children : [
+                    '',
+                    'document/计算机概述篇',
+                    'document/计算机组成篇',
+                    'document/计算机计算篇',
+                    'document/计算机实战',
+                ]
+            }],
 
             //region 资料库
             '/database/basicSkills/gxxx/' : [{

@@ -101,3 +101,9 @@ blockquote {
 h2 {
     clear: both;
 }
+
+img {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(7, 7, 7);
+}
