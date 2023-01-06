@@ -1,4 +1,4 @@
-# SpringCloud入门
+# SpringCloud概述
 
 ## 系统架构的演变
 
@@ -99,7 +99,6 @@ API Gateway网关是一个服务器，是系统的唯一入口。为每个客户
 
 ### RPC和HTTP
 
-
 ### Http客户端工具
 
 > 既然微服务选择了Http，那么我们就需要考虑自己来实现对请求和响应的处理。不过开源世界已经有很多的http客户端工具，能够帮助我们做这些事情，例如：
@@ -107,8 +106,6 @@ API Gateway网关是一个服务器，是系统的唯一入口。为每个客户
 * HttpClient
 * OKHttp
 * URLConnection
-
-
 
 ### Spring的RestTemplate
 
@@ -118,20 +115,125 @@ API Gateway网关是一个服务器，是系统的唯一入口。为每个客户
 * OkHttp
 * JDK原生的URLConnection（默认的）
 
+## 微服务与微服务架构
+
+> 微服务
+> 强调的是服务的大小，它关注的是某一个点，是具体解决某一个问题/提供落地对应服务的一个服务应用,
+> 狭意的看,可以看作IDEA里面的一个个微服务工程/或者Module
+
+![image.png](./assets/1672303355673-image.png)
+
+**微服务架构是⼀种架构模式，它提倡将单⼀应⽤程序划分成⼀组⼩的服务，服务之间互相协调、互相配合，为⽤户提供最终价值。
+每个服务运⾏在其独⽴的进程中，服务与服务间采⽤轻量级的通信机制互相协作（通常是基于HTTP协议的RESTful API）。
+每个服务都围绕着具体业务进⾏构建，并且能够被独⽴的部署到⽣产环境、类⽣产环境等。另外，应当尽量避免统⼀的、集中式的服务管理机制，对具体的⼀个服务⽽⾔，应根据业务上下⽂，选择合适的语⾔、⼯具对其进⾏构建。**
+
+业界大牛马丁.福勒（Martin Fowler） 这样描述微服务：[论文网址](https://martinfowler.com/articles/microservices.html)
+
+## 微服务的技术栈
+
+![image.png](./assets/1672303424508-image.png)
+
+## SpringCloud是什么
+
+### SpringCloud全家桶
+
+> SpringCloud = 分布式微服务架构下的一站式解决方案，是各个微服务架构落地技术的集合体，俗称微服务全家桶
+
+![image.png](./assets/1672303504488-image.png)
+
+![image.png](./assets/1672303525970-image.png)
+
+![image.png](./assets/1672303535223-image.png)
+
+![image.png](./assets/1672303542705-image.png)
+
+![image.png](./assets/1672303547847-image.png)
+
+![image.png](./assets/1672303553344-image.png)
+
+### SpringCloud与SpringBoot是什么关系
+
+**SpringBoot专注于快速方便的开发单个 个体微服务。**
+
+**SpringCloud是关注全局的微服务协调整理治理框架，它将SpringBoot开发的一个个单体微服务整合并管理起来，
+为各个微服务之间提供，配置管理、服务发现、断路器、路由、微代理、事件总线、全局锁、决策竞选、分布式会话等等集成服务**
+
+**SpringBoot可以离开SpringCloud独立使用开发项目，但是SpringCloud离不开SpringBoot，属于依赖的关系.**
+
+**SpringBoot专注于快速、方便的开发单个微服务个体，SpringCloud关注全局的服务治理框架。**
+
+## Dubbo与Cloud
+
+### 分布式+服务器指令Dubbo
+
+![image.png](./assets/1672304134568-image.png)
 
 
-## SpringCloud简介
+### Dubbo对比SpringCloud
 
-> Spring Cloud是Spring旗下的项目之一，官网地址：http://projects.spring.io/spring-cloud/
-> Spring最擅长的就是集成，把世界上最好的框架拿过来，集成到自己的项目中。
-> Spring Cloud也是一样，它将现在非常流行的一些技术整合到一起，实现了诸如：配置管理，服务发现，智能路由，
-> 负载均衡，熔断器，控制总线，集群状态等功能；协调分布式环境中各个系统，为各类服务提供模板性配置。其主要涉及的组件包括：
->
-> * Eureka：注册中心
-> * Zuul、Gateway：服务网关
-> * Ribbon：负载均衡
-> * Feign：服务调用
-> * Hystrix或Resilience4j：熔断器
-> *
+![image.png](./assets/1672304167935-image.png)
 
-![image.png](./assets/image.png)
+
+* 最大区别
+
+```bash
+SpringCloud抛弃了Dubbo的RPC通信，采用的是基于HTTP的REST方式。
+严格来说，这两种方式各有优劣。虽然从一定程度上来说，后者牺牲了服务调用的性能，但也避免了上面提到的原生RPC带来的问题。而且REST相比RPC更为灵活，服务提供方和调用方的依赖只依靠一纸契约，不存在代码级别的强依赖，这在强调快速演化的微服务环境下，显得更加合适。
+
+```
+
+
+* 品牌机与组装机的区别
+
+```bash
+很明显，Spring Cloud的功能比DUBBO更加强大，涵盖面更广，而且作为Spring的拳头项目，它也能够与Spring Framework、Spring Boot、Spring Data、Spring Batch等其他Spring项目完美融合，这些对于微服务而言是至关重要的。
+使用Dubbo构建的微服务架构就像组装电脑，各环节我们的选择自由度很高，但是最终结果很有可能因为一条内存质量不行就点不亮了，总是让人不怎么放心，但是如果你是一名高手，那这些都不是问题；
+而Spring Cloud就像品牌机，在Spring Source的整合下，做了大量的兼容性测试，保证了机器拥有更高的稳定性，但是如果要在使用非原装组件外的东西，就需要对其基础有足够的了解。
+```
+
+
+* 社区支持与更新力度
+
+```bash
+最为重要的是，DUBBO停止了5年左右的更新，虽然2017.7重启了。
+对于技术发展的新需求，需要由开发者自行拓展升级（比如当当网弄出了DubboX），这对于很多想要采用微服务架构的中小软件组织，显然是不太合适的，中小公司没有这么强大的技术能力去修改Dubbo源码+周边的一整套解决方案，并不是每一个公司都有阿里的大牛+真实的线上生产环境测试过。
+```
+
+
+### 总结Cloud与Dubbo
+
+* 问题
+
+```bash
+曾风靡国内的开源 RPC 服务框架 Dubbo 在重启维护后，令许多用户为之雀跃，但同时，也迎来了一些质疑的声音。互联网技术发展迅速，Dubbo 是否还能跟上时代？Dubbo 与 Spring Cloud 相比又有何优势和差异？是否会有相关举措保证 Dubbo 的后续更新频率？
+```
+
+```bash
+刘军，阿里巴巴中间件高级研发工程师，主导了 Dubbo 重启维护以后的几个发版计划，专注于高性能 RPC 框架和微服务相关领域。曾负责网易考拉 RPC 框架的研发及指导在内部使用，参与了服务治理平台、分布式跟踪系统、分布式一致性框架等从无到有的设计与开发过程。
+```
+
+![image.png](./assets/1672304373497-image.png)
+
+## 参考资料
+
+> [官网](http://projects.spring.io/spring-cloud)
+
+### 参考书
+
+[netflix](https://springcloud.cc/spring-cloud-netflix.html)
+
+[本次开发API 说明](http://cloud.spring.io/spring-cloud-static/Dalston.SR1)
+
+[本次开发API 说明](https://springcloud.cc/spring-cloud-dalston.html)
+
+[中国社区](http://springcloud.cn)
+
+[SpringCloud中文网](https://springcloud.cc)
+
+## 国内使用情况
+
+![image.png](./assets/1672304056058-image.png)
+
+### 阿里云
+
+![image.png](./assets/1672304063654-image.png)

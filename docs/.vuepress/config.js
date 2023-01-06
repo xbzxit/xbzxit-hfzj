@@ -69,6 +69,7 @@ module.exports = {
                             {text : 'Maven', link : '/java/elementary/Maven/'},
                             {text : 'Spring', link : '/java/elementary/Spring/'},
                             {text : 'Mybatis', link : '/java/elementary/Mybatis/'},
+                            {text : 'MybatisPlus', link : '/java/elementary/MybatisPlus/'},
                             {text : 'SpringBoot', link : '/java/elementary/SpringBoot/'},
                         ],
                     },
@@ -79,7 +80,6 @@ module.exports = {
                             {text : 'Nginx', link : '/java/middleLevel/Nginx/'},
                             {text : 'SpringSecurity', link : '/java/middleLevel/SpringSecurity/'},
                             {text : 'SpringCloud', link : '/java/middleLevel/SpringCloud/'},
-                            {text : 'SpringCloudAli', link : '/java/middleLevel/SpringCloudAli/'},
                         ],
                     },
                     {
@@ -670,6 +670,24 @@ module.exports = {
                     'document/mybatis问题整理'
                 ]
             }],
+
+            '/java/elementary/MybatisPlus/' : [{
+                title : 'MybatisPlus',
+                collapsable : false,
+                children : [
+                    '',
+                    'document/MybatisPlus入门',
+                    'document/CRUD接口',
+                    'document/常用注解',
+                    'document/条件构造器',
+                    'document/插件',
+                    'document/通用枚举',
+                    'document/代码生成器',
+                    'document/多数据源',
+                    'document/MybatisX插件',
+                ]
+            }],
+
             '/java/elementary/SpringBoot/' : [{
                 title : 'SpringBoot',
                 collapsable : false,
@@ -726,7 +744,22 @@ module.exports = {
                 collapsable : false,
                 children : [
                     '',
-                    'document/SpringCloud入门',
+                    'document/SpringCloud概述',
+                    'document/Rest微服务架构',
+                    'document/Eureka注册中心',
+                    'document/Zookeeper注册中心',
+                    'document/Consul注册中心',
+                    'document/Ribbon负载均衡',
+                    'document/Fegin负载均衡',
+                    'document/Hystrix服务熔断',
+                    'document/Gateway新一代网关',
+                    'document/Config配置中心',
+                    'document/Bus消息总线',
+                    'document/Stream消息驱动',
+                    'document/Alibaba入门简介',
+                    'document/Nacos服务注册配置中心',
+                    'document/Sentinel熔断与限流',
+                    'document/Seata分布式事务',
                 ]
             }],
 

@@ -16,10 +16,6 @@ Spring Cloud也是一样，它将现在非常流行的一些技术整合到一�
 
 负载均衡，熔断器，控制总线，集群状态等功能；协调分布式环境中各个系统，为各类服务提供模板性配置。
 
-
-
-
-
 **其主要涉及的组件包括**
 
 * Eureka：注册中心
@@ -27,7 +23,8 @@ Spring Cloud也是一样，它将现在非常流行的一些技术整合到一�
 * Ribbon：负载均衡
 * Feign：服务调用
 * Hystrix或Resilience4j：熔断器
+* Nacos 注册中心 配置中心
+* Sentinel 熔断限流
+* Seata 分布式事务
 
 :::
-
-![image.png](./assets/1671548953664-image.png)
