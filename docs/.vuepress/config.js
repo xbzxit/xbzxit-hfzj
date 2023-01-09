@@ -597,6 +597,7 @@ module.exports = {
                     '',
                     'document/Linux介绍',
                     'document/安装Linux',
+                    'document/快速创建服务器',
                     'document/基础认识',
                     'document/基础配置',
                     'document/常用命令',
@@ -636,7 +637,7 @@ module.exports = {
                 collapsable : false,
                 children : [
                     '',
-                    'document/Spring概述',
+                    'document/Spring入门',
                     'document/IOC容器',
                     'document/AOP',
                     'document/JdbcTemplate',
