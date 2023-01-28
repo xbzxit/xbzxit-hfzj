@@ -173,8 +173,6 @@
      └─ pythonMysql
 ~~~
 
-
-
 Java学习线路图
 
 学习阶段 学习目标 知识点细化 可达成学习效果 配套视频教程
@@ -201,21 +199,20 @@ Java学习线路图
 18. 单例设计模式,工厂设计模式
 19. 包装类和字符串
 20. 正则表达式,枚举
-21, 泛型, Iterator 迭代, List 接口, Set,Map,Collections
-22. File,IO 流,转换流
-23. 缓冲流,内存流
-24. 对象流, Properties 类,装饰者设计模式
-25. 多线程的三种实现,线程的常用方法,线程的生命周期,线程同步
-26. 网络编程, TCP/IP,UDP
-27. NIO, Channel,Buffer
-28. Selector,FileChannel
-29 JDK8新特性
-30. JDK9新特性
-31. JDK10新特性
-32. 反射
+    21, 泛型, Iterator 迭代, List 接口, Set,Map,Collections
+21. File,IO 流,转换流
+22. 缓冲流,内存流
+23. 对象流, Properties 类,装饰者设计模式
+24. 多线程的三种实现,线程的常用方法,线程的生命周期,线程同步
+25. 网络编程, TCP/IP,UDP
+26. NIO, Channel,Buffer
+27. Selector,FileChannel
+    29 JDK8新特性
+28. JDK9新特性
+29. JDK10新特性
+30. 反射
 
-
-第二阶段：Javaweb 
+第二阶段：Javaweb
 
 34. 数据库简介和安装, DML 操作, DQL 查询数据
 35. 数据的完整性,多表查询
@@ -226,39 +223,38 @@ Java学习线路图
 40. Html 简介, Html 基本标签, Html 表单标签
 41. CSS 简介, CSS 导入方式, CSS 选择器, CSS 属性
 42. CSS盒子模型, CSS 扩展属性
-43.Bootstrap
-44. SVN
-45. JavaScript基本语法
-46. 函数,弹窗函数,事件, JavaScript 正则表达式
-47. JavaScript 的 DOM,BOM
-48.JavaScript 定时任务
-49 Tomcat,XML
-50. Dom4j 解析 XML
-51.SAX 解析
-52. XML 生成
-53. Http 协议
-54. Servlet 生命周期
-55. Servlet 跳转
-56. HttpServletRequest,HttpServletResponse
-57. Servlet 新特性
-58. Cookie,Session
-59. URL 重写
-60. 过滤器 Filter, 监听器 Listener
-61. Jsp,Jsp 内对象
-62. EL 表达式, JSTL
-63. JSON 语法,JSON 解析, JSON 生成
-64. Gson,FastJson,Jackson工具
-65. Ajax 简介, Ajax 工作原理, Ajax 核心
-66. Ajax 综合案例
-67. jQuery概述, jQuery作用,jQuery引用
-68. jQuery语法, jQuery选择器,jQuery时间
-69. jQuery效果, jQuery HTML
-70. jQuery Ajax, jQuery 插件
-71. Validate 插件, Moment 插件
-72. MVC 模式
-73. 阶段考试
-74. 阶段考试" 学完此阶段可以胜任的岗位是：中级开发工程师；
-
+    43.Bootstrap
+43. SVN
+44. JavaScript基本语法
+45. 函数,弹窗函数,事件, JavaScript 正则表达式
+46. JavaScript 的 DOM,BOM
+    48.JavaScript 定时任务
+    49 Tomcat,XML
+47. Dom4j 解析 XML
+    51.SAX 解析
+48. XML 生成
+49. Http 协议
+50. Servlet 生命周期
+51. Servlet 跳转
+52. HttpServletRequest,HttpServletResponse
+53. Servlet 新特性
+54. Cookie,Session
+55. URL 重写
+56. 过滤器 Filter, 监听器 Listener
+57. Jsp,Jsp 内对象
+58. EL 表达式, JSTL
+59. JSON 语法,JSON 解析, JSON 生成
+60. Gson,FastJson,Jackson工具
+61. Ajax 简介, Ajax 工作原理, Ajax 核心
+62. Ajax 综合案例
+63. jQuery概述, jQuery作用,jQuery引用
+64. jQuery语法, jQuery选择器,jQuery时间
+65. jQuery效果, jQuery HTML
+66. jQuery Ajax, jQuery 插件
+67. Validate 插件, Moment 插件
+68. MVC 模式
+69. 阶段考试
+70. 阶段考试" 学完此阶段可以胜任的岗位是：中级开发工程师；
 
 "第三阶段:
 
@@ -280,7 +276,6 @@ Java学习线路图
 90. Activiti
 91. POI
 92. Echarts
-
 
 "第四阶段:
 

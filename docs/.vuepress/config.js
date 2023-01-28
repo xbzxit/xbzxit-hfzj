@@ -53,6 +53,7 @@ module.exports = {
                             {text : 'Oracle', link : '/java/noob/oracle/'},
                             {text : 'mysql', link : '/java/noob/mysql/'},
                             {text : 'PostgreSql', link : '/java/noob/PostgreSql/'},
+                            {text : 'DM', link : '/java/noob/dm/'},
                             {text : 'Linux', link : '/java/noob/linux/'},
                         ],
                     },
@@ -436,6 +437,10 @@ module.exports = {
                             {
                                 text : 'UML',
                                 link : '/database/basicSkills/UML/'
+                            },
+                            {
+                                text : 'NAS',
+                                link : '/database/basicSkills/NAS/'
                             }
                         ],
                     },
