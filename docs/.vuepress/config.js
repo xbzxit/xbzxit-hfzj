@@ -504,7 +504,7 @@ module.exports = {
             },
 
             {
-                text: '程序员编程必备',
+                text: '计算机知识',
                 items: [
                     {
                         text: '基础篇',
@@ -538,7 +538,11 @@ module.exports = {
                         {
                             text : 'CSDN',
                             link : 'https://blog.csdn.net/it_hfzj?spm=3001.5343/'
-                        }
+                        },
+                        {
+                            text : 'Java学习路线',
+                            link : '/database/javaDafa/'
+                        },
                     ]
                 }]
             }
@@ -643,8 +647,6 @@ module.exports = {
                 children : [
                     '',
                     'document/Spring入门',
-                    'document/IOC容器',
-                    'document/AOP',
                     'document/JdbcTemplate',
                     'document/事务操作',
                     'document/Spring5新功能',
@@ -758,6 +760,7 @@ module.exports = {
                     'document/Ribbon负载均衡服务调用',
                     'document/OpenFeign服务接口调用',
                     'document/Hystrix断路器',
+                    'document/Zuul路由网关',
                     'document/Gateway新一代网关',
                     'document/config分布式配置中心',
                     'document/Bus消息总线',
@@ -1110,6 +1113,21 @@ module.exports = {
                 children : [
                     '',
                     'document/接口对接',
+                ]
+            }],
+            '/database/javaDafa/' : [{
+                title : 'Java学习路线',
+                collapsable : false,
+                children : [
+                    '',
+                    'document/Java入门',
+                    'document/巩固基础',
+                    'document/Java企业开发基础',
+                    'document/Java企业开发进阶',
+                    'document/项目实战',
+                    'document/Java高级',
+                    'document/Java求职',
+                    'document/持续学习',
                 ]
             }],
             //endregion

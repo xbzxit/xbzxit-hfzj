@@ -14,6 +14,7 @@
   "dependencies": {
     "chart": "^0.1.2",
     "math": "^0.0.3",
+    "pie": "^10.6.4",
     "vuepress": "^1.8.2"
   },
   "devDependencies": {
