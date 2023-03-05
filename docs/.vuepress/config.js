@@ -420,6 +420,25 @@ module.exports = {
             },
 
             {
+                text: '项目实战',
+                items: [
+                    {
+                        text: 'Java',
+                        items : [
+                            {
+                                text : '十项全能',
+                                link : '/project/java/mu10allround/'
+                            },
+                            {
+                                text : '技术专家',
+                                link : '/project/java/technician/'
+                            },
+                        ],
+                    },
+                ],
+            },
+
+            {
                 text: '知识库',
                 items: [
                     {
@@ -507,7 +526,7 @@ module.exports = {
                 text: '计算机知识',
                 items: [
                     {
-                        text: '基础篇',
+                        text: '必修课',
                         items : [
                             {
                                 text : '计算机组成原理',
@@ -521,12 +540,37 @@ module.exports = {
                                 text : '计算机网络',
                                 link : '/cxybb/elementary/jsjwl/'
                             },
-                        ],
+                        ]
                     },
-                ],
+                    {
+                        text: '系统集成师',
+                        items : [
+                            {
+                                text : '系统集成理论',
+                                link : '/cxybb/elementary/jsjwl/'
+                            }
+                        ]
+                    },
+                    {
+                        text: '软件设计',
+                        items : [
+                            {
+                                text : '软件设计理论',
+                                link : '/cxybb/elementary/jsjwl/'
+                            }
+                        ]
+                    },
+                    {
+                        text: '软件评测',
+                        items : [
+                            {
+                                text : '测试理论',
+                                link : '/cxybb/elementary/jsjzcyl/'
+                            },
+                        ]
+                    }
+                ]
             },
-
-
             {
                 text : 'HFZJ',
                 items: [{
@@ -1131,6 +1175,22 @@ module.exports = {
                 ]
             }],
             //endregion
+
+            '/project/java/mu10allround/' : [{
+                title : '十项全能',
+                collapsable : false,
+                children : [
+                    '',
+                    'document/你真的理解什么是架构设计吗',
+                    'document/高潜架构师都具备哪些核心能力',
+                    'document/不讲原则的架构师不是好架构师',
+                    'document/如何衡量一个架构设计是好是坏',
+                    'document/4大架构设计模式_带你领略架构设计精髓',
+                    'document/不会评估_你就只能当一个PPT架构师',
+                    'document/技法套路一_分布式架构设计技法',
+                    'document/技法套路二_微服务架构设计技法',
+                ]
+            }],
         }
     }
 };
