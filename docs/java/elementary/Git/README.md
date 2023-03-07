@@ -1,6 +1,6 @@
 # 介绍
 
-<h1 align="center">GitHub</h1>
+<h1 align="center">Git</h1>
 
 <p align="center">远程版本控制</p>
 
