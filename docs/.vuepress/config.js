@@ -68,6 +68,8 @@ module.exports = {
                         items : [
                             {text : 'Logging', link : '/java/elementary/Logging/'},
                             {text : 'Maven', link : '/java/elementary/Maven/'},
+                            {text : 'Git', link : '/java/elementary/Git/'},
+                            {text : 'GitHub', link : '/java/elementary/GitHub/'},
                             {text : 'Spring', link : '/java/elementary/Spring/'},
                             {text : 'Mybatis', link : '/java/elementary/Mybatis/'},
                             {text : 'MybatisPlus', link : '/java/elementary/MybatisPlus/'},
@@ -685,6 +687,38 @@ module.exports = {
 
                 ]
             }],
+
+            '/java/elementary/Git/' : [{
+                title : 'Git',
+                collapsable : false,
+                children : [
+                    '',
+                    'document/Git概述',
+                    'document/Git安裝',
+                    'document/Git常用命令',
+                    'document/Git分支操作',
+                    'document/Git团队协作机制',
+                    'document/GitHub操作',
+                    'document/IDEA集成Git',
+                    'document/IDEA集成GitHub',
+                    'document/Gitee',
+                    'document/GitLab',
+                ]
+            }],
+
+            '/java/elementary/GitHub/' : [{
+                title : 'GitHub',
+                collapsable : false,
+                children : [
+                    '',
+                    'document/Git使用',
+                    'document/版本回退与分支',
+                    'document/GitHub使用',
+                    'document/GitHub整合IDEA',
+                    'document/GitLab',
+                ]
+            }],
+
             '/java/elementary/Spring/' : [{
                 title : 'Spring',
                 collapsable : false,
