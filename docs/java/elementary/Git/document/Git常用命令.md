@@ -5,7 +5,7 @@
 | ------------------------------------- | ---------------- | ------------------------------------------------ |
 | git config --global username 用户名 | 设置用户签名   | git config --global username xbzxit            |
 | git config --global useremail 邮箱  | 设置用户签名   | git config --global username xbzxit@163.com    |
-| git config --global http.sslVerify false | ||
+| git config --global http.sslVerify false |解除ssl验证 ||
 | git init                            | 初始化本地库   | 指定文件或目录使用git管理                      |
 | git status                          | 查看本地库状态 |                                                |
 | git add 文件名                      | 添加到暂存区   | git add a.txt  加入版本控制                   |
