@@ -80,6 +80,8 @@ module.exports = {
                         text: 'Java中级',
                         items : [
                             {text : 'RabbitMQ', link : '/java/middleLevel/RabbitMQ/'},
+                            {text : 'Kafka', link : '/java/middleLevel/Kafka/'},
+                            {text : 'Zookeeper', link : '/java/middleLevel/Zookeeper/'},
                             {text : 'Nginx', link : '/java/middleLevel/Nginx/'},
                             {text : 'SpringSecurity', link : '/java/middleLevel/SpringSecurity/'},
                             {text : 'SpringCloud', link : '/java/middleLevel/SpringCloud/'},
@@ -496,19 +498,6 @@ module.exports = {
                         ],
                     },
                     {
-                        text: '工具类',
-                        items : [
-                            {
-                                text : 'Java',
-                                link : '/database/toolsclass/java/'
-                            },
-                            // {
-                            //     text : '前端',
-                            //     link : '/database/toolsclass/web'
-                            // }
-                        ],
-                    },
-                    {
                         text: '问题库',
                         items : [
                             {
@@ -800,6 +789,25 @@ module.exports = {
                     'document/消息中间件介绍',
                     'document/JMS规范',
                     'document/AMQP协议',
+                ]
+            }],
+            '/java/middleLevel/Kafka/' : [{
+                title : 'Kafka',
+                collapsable : false,
+                children : [
+                    '',
+                    'document/Kafka介绍',
+                    'document/Kafka安装',
+                    'document/Kafka常用命令',
+                ]
+            }],
+            '/java/middleLevel/Zookeeper/' : [{
+                title : 'Zookeeper',
+                collapsable : false,
+                children : [
+                    '',
+                    'document/Zookeeper入门',
+                    'document/Zookeeper安装',
                 ]
             }],
             '/java/middleLevel/Nginx/' : [{
@@ -1146,18 +1154,6 @@ module.exports = {
                     'document/UML介绍',
                 ]
             }],
-            '/database/toolsclass/java/' : [{
-                title : '工具类',
-                collapsable : false,
-                children : [
-                    '',
-                    'document/Json处理',
-                    'document/Redis工具类',
-                    'document/字符串处理',
-                    'document/常见工具类',
-                    'document/时间格式化'
-                ]
-            }],
             '/database/code/java/' : [{
                 title : '常用代码',
                 collapsable : false,
@@ -1165,6 +1161,11 @@ module.exports = {
                     '',
                     'document/文件上传下载',
                     'document/List常见操作',
+                    'document/Json处理',
+                    'document/Redis工具类',
+                    'document/字符串处理',
+                    'document/常见工具类',
+                    'document/时间格式化'
                 ]
             }],
             '/database/tools/java/' : [{
@@ -1191,6 +1192,8 @@ module.exports = {
                 children : [
                     '',
                     'document/接口对接',
+                    'document/框架常见的问题',
+
                 ]
             }],
             '/database/javaDafa/' : [{
