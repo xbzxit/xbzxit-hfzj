@@ -85,12 +85,12 @@ module.exports = {
                             {text : 'Nginx', link : '/java/middleLevel/Nginx/'},
                             {text : 'SpringSecurity', link : '/java/middleLevel/SpringSecurity/'},
                             {text : 'SpringCloud', link : '/java/middleLevel/SpringCloud/'},
+                            {text : 'CICD', link : '/java/middleLevel/CICD/'},
                         ],
                     },
                     {
                         text: 'Java高级',
                         items : [
-                            {text : '分布式项目', link : '/java/highLevel/gulimall/'},
                         ],
                     },
                 ],
@@ -430,12 +430,20 @@ module.exports = {
                         text: 'Java',
                         items : [
                             {
+                                text : '慕课新闻',
+                                link : '/project/java/mook-news/'
+                            },
+                            {
                                 text : '十项全能',
                                 link : '/project/java/mu10allround/'
                             },
                             {
                                 text : '技术专家',
                                 link : '/project/java/technician/'
+                            },
+                            {
+                                text : '谷粒商城',
+                                link : '/project/java/gmall/'
                             },
                         ],
                     },
@@ -869,29 +877,22 @@ module.exports = {
                     'document/密码学介绍'
                 ]
             }],
-            '/java/highLevel/gulimall/' : [{
-                title : '谷粒商城',
+            '/java/middleLevel/CICD/' : [{
+                title : '持续部署',
                 collapsable : false,
                 children : [
                     '',
-                    'document/项目简介',
-                    'document/分布式基本概念',
-                    'document/环境搭建',
-                    'document/SpringCloudAlibaba',
-                    'document/SpringCloud',
-                    'document/ES6',
-                    'document/Vue',
-                    // 'document/商品服务-三级分类',
-                    // 'document/商品服务-品牌管理',
-                    // 'document/商品服务-平台属性',
-                    // 'document/商品服务-新增商品',
-                    // 'document/商品服务-商品管理',
-                    // 'document/仓储服务-仓库管理',
-                    'document/k8s环境准备',
-                    'document/k8s集群搭建',
-                    'document/kubesphere安装'
+                    'document/Linux服务器',
+                    'document/Jdk',
+                    'document/Git',
+                    'document/GitLab',
+                    'document/Maven',
+                    'document/nexus',
+                    'document/SonarQube',
+                    'document/Jenkins'
                 ]
             }],
+
             //endregion
 
             //region python
@@ -1213,6 +1214,14 @@ module.exports = {
             }],
             //endregion
 
+            '/project/java/mooc-news/' : [{
+                title : '技术专家',
+                collapsable : false,
+                children : [
+                    '',
+                ]
+            }],
+
             '/project/java/mu10allround/' : [{
                 title : '十项全能',
                 collapsable : false,
@@ -1226,6 +1235,37 @@ module.exports = {
                     'document/不会评估_你就只能当一个PPT架构师',
                     'document/技法套路一_分布式架构设计技法',
                     'document/技法套路二_微服务架构设计技法',
+                ]
+            }],
+
+            '/project/java/technician/' : [{
+                title : '技术专家',
+                collapsable : false,
+                children : [
+                    '',
+                ]
+            }],
+
+            '/project/java/gmall/' : [{
+                title : '谷粒商城',
+                collapsable : false,
+                children : [
+                    '',
+                    'document/项目简介',
+                    'document/环境搭建',
+                    'document/逆向工程CRUD',
+                    'document/SpringCloudAlibaba',
+                    'document/SpringCloud',
+                    'document/ES6',
+
+                ]
+            }],
+
+            '/project/java/hfNas/' : [{
+                title : '个人NAS',
+                collapsable : false,
+                children : [
+                    '',
                 ]
             }],
         }
