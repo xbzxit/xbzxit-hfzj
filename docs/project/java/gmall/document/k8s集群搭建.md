@@ -95,7 +95,7 @@ kubeadm config images pull
 
 **上传到root目录下**
 
-![image.png](./assets/1637347029977-image.png)
+
 
 **设置权限**
 
@@ -161,7 +161,7 @@ kubectl get pods --all-namespaces
 kubectl get nodes
 ```
 
-![image.png](./assets/1637347078783-image.png)
+
 
 * **目前master状态为notready。 等待网络加入完成即可**
 
@@ -173,7 +173,7 @@ kubeadm join 10.0.2.5:6443 --token 6u0hz8.8n8upegk2174agpw \
     --discovery-token-ca-cert-hash sha256:4c8e93108c41eef60b4ebc58bfb11abb3161f1d479b50532246a408eb8ea09d9
 ```
 
-![image.png](./assets/1637347114442-image.png)
+
 
 * **监控pod进度**
 
@@ -184,7 +184,7 @@ watch kubectl get pod -n kube-system -o wide
 
 * **所有状态必须是running**
 
-![image.png](./assets/1637347140432-image.png)
+
 
 * **查看所有节点的状态**
 
@@ -192,6 +192,6 @@ watch kubectl get pod -n kube-system -o wide
 kubectl get pods
 ```
 
-![image.png](./assets/1637347158667-image.png)
+
 
 保存备份，集群搭建完成。

@@ -81,7 +81,7 @@ SpringCloud 配置复杂，难以上手，部分配置差别难以区分和合�
 
 使用默认的 nacos/nacos 进行登录
 
-![image.png](./assets/1639836462350-image.png)
+
 
 ### 将微服务注册到nacos中
 

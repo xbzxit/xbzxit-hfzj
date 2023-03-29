@@ -50,10 +50,9 @@ service sshd restart
 **设置虚拟机的网卡**
 
 * **VirtualBox->全局设定->网络->添加-确定**
-* ![image.png](./assets/1637345257993-image.png)
+
 
 **每台主机设置Net网络 并刷新MAC地址**
-![image.png](./assets/1637345268444-image.png)
 
 **查看默认网卡**
 
@@ -132,4 +131,3 @@ ntpdate time.windows.com  同步最新时间
 
 * **备份准备好的环境**
 
-  ![image.png](./assets/1637347245755-image.png)

@@ -54,7 +54,6 @@ helm init --service-account=tiller --tiller-image=sapcc/tiller:v2.17.0 --history
 kubectl get pods --all-namespaces
 ```
 
-![image.png](./assets/1637346880794-image.png)
 
 
 存储类型
