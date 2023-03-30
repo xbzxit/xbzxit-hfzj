@@ -1253,6 +1253,7 @@ module.exports = {
                     '',
                     'document/项目简介',
                     'document/环境搭建',
+
                     'document/SpringCloudAlibaba',
                     'document/SpringCloud',
                     'document/ES6',
