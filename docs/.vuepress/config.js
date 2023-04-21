@@ -1009,7 +1009,18 @@ module.exports = {
                 collapsable : false,
                 children : [
                     '',
-                    'document/Apifox入门',
+                    'document/Apifox环境搭建',
+                    'document/Apifox之团队项目管理',
+                    'document/Apifox之接口设计',
+                    'document/Apifox之环境管理数据模型',
+                    'document/Apifox之导入导出',
+                    'document/Apifox之调试用例',
+                    'document/Apifox之断言',
+                    'document/Apifox之Mock',
+                    'document/Apifox之自动化测试',
+                    'document/Apifox之性能测试',
+                    'document/Apifox之测试套件报告',
+
                     'document/Postman入门',
                     'document/Postman用例集',
                     'document/Postman断言',
@@ -1253,7 +1264,7 @@ module.exports = {
                     '',
                     'document/项目简介',
                     'document/环境搭建',
-
+                    'document/逆向工程CRUD',
                     'document/SpringCloudAlibaba',
                     'document/SpringCloud',
                     'document/ES6',
