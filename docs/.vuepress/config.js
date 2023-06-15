@@ -44,6 +44,7 @@ module.exports = {
 
         /*顶层的导航栏*/
         nav: [
+
             {
                 text: 'Java开发',
                 items: [
@@ -96,84 +97,63 @@ module.exports = {
                 ],
             },
 
-            // {
-            //     text: 'Python开发',
-            //     items: [
-            //         {
-            //             text: 'Python小白',
-            //             items : [
-            //                 {
-            //                     text: '基础语法',
-            //                     link: '/python/noob/basicGrammar/'
-            //                 },
-            //                 {
-            //                     text: '三大主流类型',
-            //                     link: '/python/noob/3bigType/'
-            //                 },
-            //                 {
-            //                     text: '流程控制函数',
-            //                     link: '/python/noob/proContMethod/'
-            //                 },
-            //                 {
-            //                     text: '面向对象',
-            //                     link: '/python/noob/oopExcep/'
-            //                 },
-            //                 {
-            //                     text: '模块与文件',
-            //                     link: '/python/noob/moduleFile/'
-            //                 },
-            //                 {
-            //                     text: '多线程',
-            //                     link: '/python/noob/multiThread/'
-            //                 },
-            //                 {
-            //                     text: '正则及项目',
-            //                     link: '/python/noob/expProject/'
-            //                 },
-            //             ],
-            //         },
-            //         {
-            //             text: 'Python入门',
-            //             items : [
-            //                 {
-            //                     text: 'Python与MySql',
-            //                     link: '/python/started/pythonMysql/'
-            //                 },
-            //             ],
-            //
-            //         },
-            //         {
-            //             text: 'Python初级',
-            //             items : [
-            //                 {
-            //                     text: 'Python与MySql',
-            //                     link: '/python/started/pythonMysql/'
-            //                 },
-            //             ],
-            //
-            //         },
-            //         {
-            //             text: 'Python中级',
-            //             items : [
-            //                 {
-            //                     text: 'Python与MySql',
-            //                     link: '/python/started/pythonMysql/'
-            //                 },
-            //             ],
-            //
-            //         },
-            //         {
-            //             text: 'Python高级',
-            //             items : [
-            //                 {
-            //                     text: 'Python与MySql',
-            //                     link: '/python/started/pythonMysql/'
-            //                 },
-            //             ],
-            //
-            //         },
-            //     ],
-            // },
+            {
+                text: 'Python开发',
+                items: [
+                    {
+                        text: 'Python小白',
+                        items : [
+                            {
+                                text: '基础语法',             
+                                link: '/python/noob/basicGrammar/'
+                            },
+                            {
+                                text: 'Python小白',
+                                link: '/python/noob/'
+                            },
+                        ],
+                    },
+                    {
+                        text: 'Python入门',
+                        items : [
+                            {
+                                text: 'Python入门',
+                                link: '/python/started/'
+                            },
+                        ],
+
+                    },
+                    {
+                        text: 'Python初级',
+                        items : [
+                            {
+                                text: 'Python初级',
+                                link: '/python/elementary/'
+                            },
+                        ],
+
+                    },
+                    {
+                        text: 'Python中级',
+                        items : [
+                            {
+                                text: 'Python中级',
+                                link: '/python/middleLevel/'
+                            },
+                        ],
+
+                    },
+                    {
+                        text: 'Python高级',
+                        items : [
+                            {
+                                text: 'Python高级',
+                                link: '/python/highLevel/'
+                            },
+                        ],
+                    },
+                ],
+            },
             //
             // {
             //     text: 'Linux云计算',
@@ -243,6 +223,7 @@ module.exports = {
             //     ],
             // },
             //
+
             {
                 text: '软件测试',
                 items: [
@@ -346,7 +327,7 @@ module.exports = {
                     },
                 ],
             },
-            //
+
             {
                 text: '前端开发',
                 items: [
@@ -570,6 +551,7 @@ module.exports = {
                     }
                 ]
             },
+
             {
                 text : 'HFZJ',
                 items: [{
@@ -603,6 +585,20 @@ module.exports = {
             }],
             //endregion
 
+            //region Python部分
+            '/python/noob/basicGrammar/' : [{
+                title : '基础语法',
+                collapsable : false,
+                children : [
+                    '',
+                    'document/开发环境搭建',
+                    'document/Python入门程序',
+                    'document/Python基础语法',
+                ]
+            }],
+            //endregion
+
+
             //region java部分
             '/java/noob/oracle/' : [{
                 title : 'Oracle',
@@ -632,7 +628,6 @@ module.exports = {
                     'document/Linux安装mysql',
                 ]
             }],
-
             '/java/noob/PostgreSql/' : [{
                 title : 'PostgreSql',
                 collapsable : false,
@@ -641,7 +636,6 @@ module.exports = {
                     'document/安装',
                 ]
             }],
-
             '/java/noob/linux/' : [{
                 title : 'Linux',
                 collapsable : false,
@@ -657,7 +651,6 @@ module.exports = {
                     'document/安装Oracle11g',
                 ]
             }],
-
             '/java/elementary/Logging/' : [{
                 title : 'Logging',
                 collapsable : false,
@@ -670,7 +663,6 @@ module.exports = {
 
                 ]
             }],
-
             '/java/elementary/Maven/' : [{
                 title : 'Maven',
                 collapsable : false,
@@ -684,7 +676,6 @@ module.exports = {
 
                 ]
             }],
-
             '/java/elementary/Git/' : [{
                 title : 'Git',
                 collapsable : false,
@@ -702,7 +693,6 @@ module.exports = {
                     'document/GitLab',
                 ]
             }],
-
             '/java/elementary/GitHub/' : [{
                 title : 'GitHub',
                 collapsable : false,
@@ -715,7 +705,6 @@ module.exports = {
                     'document/GitLab',
                 ]
             }],
-
             '/java/elementary/Spring/' : [{
                 title : 'Spring',
                 collapsable : false,
@@ -753,7 +742,6 @@ module.exports = {
                     'document/mybatis常见开发问题'
                 ]
             }],
-
             '/java/elementary/MybatisPlus/' : [{
                 title : 'MybatisPlus',
                 collapsable : false,
@@ -770,7 +758,6 @@ module.exports = {
                     'document/MybatisX插件',
                 ]
             }],
-
             '/java/elementary/SpringBoot/' : [{
                 title : 'SpringBoot',
                 collapsable : false,
@@ -786,8 +773,6 @@ module.exports = {
                     'document/SpringBoot错误积累'
                 ]
             }],
-
-
             '/java/middleLevel/RabbitMQ/' : [{
                 title : 'RabbitMQ',
                 collapsable : false,
@@ -868,7 +853,6 @@ module.exports = {
 
                 ]
             }],
-
             '/java/middleLevel/encode/' : [{
                 title : '安全密码学',
                 collapsable : false,
@@ -890,27 +874,6 @@ module.exports = {
                     'document/nexus',
                     'document/SonarQube',
                     'document/Jenkins'
-                ]
-            }],
-
-            //endregion
-
-            //region python
-            '/python/noob/basicGrammar/' : [{
-                title : 'pythonMysql',
-                collapsable : false,
-                children : [
-                    '',
-                    'document/Python介绍',
-                ]
-            }],
-
-            '/python/started/pythonMysql/' : [{
-                title : 'pythonMysql',
-                collapsable : false,
-                children : [
-                    '',
-                    'document/Python与MySql的整合',
                 ]
             }],
             //endregion
@@ -1124,7 +1087,6 @@ module.exports = {
             }],
             //endregion
 
-
             '/cxybb/elementary/jsjzcyl/' : [{
                 title : '计算机组成原理',
                 collapsable : false,
@@ -1225,6 +1187,7 @@ module.exports = {
             }],
             //endregion
 
+            //region 项目实战
             '/project/java/mooc-news/' : [{
                 title : '技术专家',
                 collapsable : false,
@@ -1278,6 +1241,7 @@ module.exports = {
                     '',
                 ]
             }],
+            //endregion
         }
     }
 };
