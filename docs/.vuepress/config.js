@@ -5,28 +5,30 @@ module.exports = {
     dest : "dist",
     head : [
         [
-            'link', {
-            rel : 'icon',
-            href :
-                '/images/favicon.ico'
-        }
-
+            'link',
+            {
+                rel : 'icon',
+                href : '/images/favicon.ico'
+            }
         ],
         [
-            'link', {
-            rel : 'stylesheet',
-            href : '/css/xbzxit.css'
-        }
+            'link',
+            {
+                rel : 'stylesheet',
+                href : '/css/xbzxit.css'
+            }
         ],
         [
-            'script', {
-            charset : 'utf-8',
-            src : '/js/xbzxit.js'
-        }, {
-            language: "javascript",
-            type: "text/javascript",
-            src: "/js/pgmanor-self.js"
-        }
+            'script',
+            {
+                charset : 'utf-8',
+                src : '/js/xbzxit.js'
+            },
+            {
+                language: "javascript",
+                type: "text/javascript",
+                src: "/js/pgmanor-self.js"
+            }
         ]
     ],
     base: '',
@@ -154,6 +156,7 @@ module.exports = {
                     },
                 ],
             },
+
             //
             // {
             //     text: 'Linux云计算',
@@ -598,7 +601,6 @@ module.exports = {
             }],
             //endregion
 
-
             //region java部分
             '/java/noob/oracle/' : [{
                 title : 'Oracle',
@@ -989,21 +991,10 @@ module.exports = {
                     'document/Postman断言',
                     'document/Postman前置脚本',
                     'document/Postman关联',
-                    'document/Postman生成测试报告',
                     'document/Postman参数化',
                     'document/Postman实战',
-                    // 'document/性能测试策略',
-                    // 'document/性能测试指标',
-                    // 'document/性能测试流程',
-                    // 'document/性能测试JMeter',
-                    // 'document/性能测试线程组',
-                    // 'document/性能测试参数化',
-                    // 'document/性能测试断言',
-                    // 'document/性能测试正则表达式',
-                    // 'document/性能测试链接数据库',
-                    // 'document/性能测试控制器',
-                    // 'document/性能测试定时器',
-                    // 'document/项目实战',
+                    'document/Postman生成测试报告',
+
                 ]
             }],
             '/autotest/middleLevel/performTest/' : [{
@@ -1042,9 +1033,6 @@ module.exports = {
                     'document/小程序项目',
                     'document/项目实战部署',
                     'document/项目测试流程',
-                    // 'document/项目实战测试点测试用例',
-                    // 'document/项目实战非功能测试',
-                    // 'document/测试报告',
                 ]
             }],
             '/autotest/highLevel/jmeter/' : [{
@@ -1108,7 +1096,8 @@ module.exports = {
                     'document/VuePress',
                     'document/MarkDown',
                     'document/电脑基础知识',
-                    'document/装系统'
+                    'document/装系统',
+                    'document/电脑必装软件'
                 ]
             }],
             '/database/basicSkills/Excel/' : [{
