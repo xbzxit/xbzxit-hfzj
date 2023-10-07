@@ -682,7 +682,7 @@
     </a></div>
 </div>
 
-## 其它资
+## 其它
 
 <div >
     <div class="cc-row cc-row-gutter-20"><a href="https://app.zeplin.io/" target="_blank">
@@ -827,4 +827,187 @@
     </a></div>
 </div>
 
-##
+## 搞学习
+
+<div >
+    <div class="cc-row cc-row-gutter-20"><a href="https://www.ted.com/" target="_blank">
+        <div class="my-nav-item">
+            <div title="zeplin"><img src="./document/images/github2.jpg" style="height: 40px;">
+                <div style="height: 40px; float: right;">TED</div>
+            </div>
+            <div title="TED。" class="cc-nav-des">
+                TED
+            </div>
+        </div>
+    </a></div>
+</div>
+
+## 找书籍
+
+<div >
+    <div class="cc-row cc-row-gutter-20"><a href="https://app.zeplin.io/" target="_blank">
+        <div class="my-nav-item">
+            <div title="zeplin"><img src="./document/images/github2.jpg" style="height: 40px;">
+                <div style="height: 40px; float: right;">zeplin</div>
+            </div>
+            <div title="前端和设计师神器，有标注、Style Guide、版本管理、简单的团队协作，重点是前端不用写css 了，复制就可以了。" class="cc-nav-des">
+                前端和设计师神器，有标注、Style Guide、版本管理、简单的团队协作...
+            </div>
+        </div>
+    </a></div>
+</div>
+
+## 冷知识 / 黑科技
+
+<div >
+    <div class="cc-row cc-row-gutter-20"><a href="https://app.zeplin.io/" target="_blank">
+        <div class="my-nav-item">
+            <div title="zeplin"><img src="./document/images/github2.jpg" style="height: 40px;">
+                <div style="height: 40px; float: right;">zeplin</div>
+            </div>
+            <div title="前端和设计师神器，有标注、Style Guide、版本管理、简单的团队协作，重点是前端不用写css 了，复制就可以了。" class="cc-nav-des">
+                前端和设计师神器，有标注、Style Guide、版本管理、简单的团队协作...
+            </div>
+        </div>
+    </a></div>
+</div>
+
+## 写代码
+
+<div >
+    <div class="cc-row cc-row-gutter-20"><a href="https://app.zeplin.io/" target="_blank">
+        <div class="my-nav-item">
+            <div title="zeplin"><img src="./document/images/github2.jpg" style="height: 40px;">
+                <div style="height: 40px; float: right;">zeplin</div>
+            </div>
+            <div title="前端和设计师神器，有标注、Style Guide、版本管理、简单的团队协作，重点是前端不用写css 了，复制就可以了。" class="cc-nav-des">
+                前端和设计师神器，有标注、Style Guide、版本管理、简单的团队协作...
+            </div>
+        </div>
+    </a></div>
+</div>
+
+## 资源搜索
+
+<div >
+    <div class="cc-row cc-row-gutter-20"><a href="https://app.zeplin.io/" target="_blank">
+        <div class="my-nav-item">
+            <div title="zeplin"><img src="./document/images/github2.jpg" style="height: 40px;">
+                <div style="height: 40px; float: right;">zeplin</div>
+            </div>
+            <div title="前端和设计师神器，有标注、Style Guide、版本管理、简单的团队协作，重点是前端不用写css 了，复制就可以了。" class="cc-nav-des">
+                前端和设计师神器，有标注、Style Guide、版本管理、简单的团队协作...
+            </div>
+        </div>
+    </a></div>
+</div>
+
+## 小工具
+
+<div >
+    <div class="cc-row cc-row-gutter-20"><a href="https://app.zeplin.io/" target="_blank">
+        <div class="my-nav-item">
+            <div title="zeplin"><img src="./document/images/github2.jpg" style="height: 40px;">
+                <div style="height: 40px; float: right;">zeplin</div>
+            </div>
+            <div title="前端和设计师神器，有标注、Style Guide、版本管理、简单的团队协作，重点是前端不用写css 了，复制就可以了。" class="cc-nav-des">
+                前端和设计师神器，有标注、Style Guide、版本管理、简单的团队协作...
+            </div>
+        </div>
+    </a></div>
+</div>
+
+## 导航页（工具集）
+
+<div >
+    <div class="cc-row cc-row-gutter-20"><a href="https://app.zeplin.io/" target="_blank">
+        <div class="my-nav-item">
+            <div title="zeplin"><img src="./document/images/github2.jpg" style="height: 40px;">
+                <div style="height: 40px; float: right;">zeplin</div>
+            </div>
+            <div title="前端和设计师神器，有标注、Style Guide、版本管理、简单的团队协作，重点是前端不用写css 了，复制就可以了。" class="cc-nav-des">
+                前端和设计师神器，有标注、Style Guide、版本管理、简单的团队协作...
+            </div>
+        </div>
+    </a></div>
+</div>
+
+## 看视频
+
+<div >
+    <div class="cc-row cc-row-gutter-20"><a href="https://app.zeplin.io/" target="_blank">
+        <div class="my-nav-item">
+            <div title="zeplin"><img src="./document/images/github2.jpg" style="height: 40px;">
+                <div style="height: 40px; float: right;">zeplin</div>
+            </div>
+            <div title="前端和设计师神器，有标注、Style Guide、版本管理、简单的团队协作，重点是前端不用写css 了，复制就可以了。" class="cc-nav-des">
+                前端和设计师神器，有标注、Style Guide、版本管理、简单的团队协作...
+            </div>
+        </div>
+    </a></div>
+</div>
+
+## 学设计
+
+<div >
+    <div class="cc-row cc-row-gutter-20"><a href="https://app.zeplin.io/" target="_blank">
+        <div class="my-nav-item">
+            <div title="zeplin"><img src="./document/images/github2.jpg" style="height: 40px;">
+                <div style="height: 40px; float: right;">zeplin</div>
+            </div>
+            <div title="前端和设计师神器，有标注、Style Guide、版本管理、简单的团队协作，重点是前端不用写css 了，复制就可以了。" class="cc-nav-des">
+                前端和设计师神器，有标注、Style Guide、版本管理、简单的团队协作...
+            </div>
+        </div>
+    </a></div>
+</div>
+
+## 搞文档
+
+<div >
+    <div class="cc-row cc-row-gutter-20"><a href="https://app.zeplin.io/" target="_blank">
+        <div class="my-nav-item">
+            <div title="zeplin"><img src="./document/images/github2.jpg" style="height: 40px;">
+                <div style="height: 40px; float: right;">zeplin</div>
+            </div>
+            <div title="前端和设计师神器，有标注、Style Guide、版本管理、简单的团队协作，重点是前端不用写css 了，复制就可以了。" class="cc-nav-des">
+                前端和设计师神器，有标注、Style Guide、版本管理、简单的团队协作...
+            </div>
+        </div>
+    </a></div>
+</div>
+
+## 找图片
+
+<div >
+    <div class="cc-row cc-row-gutter-20"><a href="https://www.logosc.cn/so/" target="_blank">
+        <div class="my-nav-item">
+            <div title="zeplin"><img src="./document/images/bxz.png" style="height: 40px;">
+                <div style="height: 40px; float: right;">免费版权图片搜索</div>
+            </div>
+            <div title="免费版权图片搜索。" class="cc-nav-des">
+                免费版权图片搜索...
+            </div>
+        </div>
+    </a></div>
+    <div class="cc-row cc-row-gutter-20"><a href="https://www.sigoo.com/" target="_blank">
+        <div class="my-nav-item">
+            <div title="zeplin"><img src="./document/images/jxs.png" style="height: 40px;">
+                <div style="height: 40px; float: right;">极像素</div>
+            </div>
+            <div title="极像素（超高清大图）。" class="cc-nav-des">
+                极像素（超高清大图）
+            </div>
+        </div>
+    </a></div>
+    <div class="cc-row cc-row-gutter-20"><a href="http://pic.netbian.com/" target="_blank">
+        <div class="my-nav-item">
+            <div title="彼岸图网"><img src="./document/images/batw.png" style="height: 40px;">
+                <div style="height: 40px; float: right;">彼岸图网</div>
+            </div>
+            <div title="彼岸图网。" class="cc-nav-des">
+                彼岸图网...
+            </div>
+        </div>
+    </a></div>
+</div>

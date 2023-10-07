@@ -106,7 +106,7 @@ module.exports = {
                         text: 'Python小白',
                         items : [
                             {
-                                text: '基础语法',             
+                                text: '基础语法',
                                 link: '/python/noob/basicGrammar/'
                             },
                             {
@@ -994,6 +994,8 @@ module.exports = {
                     'document/Postman参数化',
                     'document/Postman实战',
                     'document/Postman生成测试报告',
+
+                    'document/Reqable介绍',
 
                 ]
             }],
