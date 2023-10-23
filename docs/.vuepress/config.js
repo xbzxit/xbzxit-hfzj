@@ -996,6 +996,7 @@ module.exports = {
                     'document/Postman生成测试报告',
 
                     'document/Reqable介绍',
+                    'document/Reqable之API测试',
 
                 ]
             }],
