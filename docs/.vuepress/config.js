@@ -263,10 +263,10 @@ module.exports = {
                     {
                         text: '测试初级',
                         items : [
-                            // {
-                            //     text : 'Python编程基础',
-                            //     link : ''
-                            // },
+                            {
+                                text : 'Python编程基础',
+                                link : '/autotest/elementary/f_python/'
+                            },
                             // {
                             //     text : '前端知识',
                             //     link : ''
@@ -594,9 +594,9 @@ module.exports = {
                 collapsable : false,
                 children : [
                     '',
-                    'document/开发环境搭建',
-                    'document/Python入门程序',
-                    'document/Python基础语法',
+                    // 'document/开发环境搭建',
+                    // 'document/Python入门程序',
+                    // 'document/Python基础语法',
                 ]
             }],
             //endregion
@@ -926,6 +926,14 @@ module.exports = {
                     'document/QC',
                 ]
             }],
+            '/autotest/elementary/f_python/' : [{
+                title : 'Python脚本',
+                collapsable : false,
+                children : [
+                    '',
+                    'document/Python基础',
+                ]
+            }],
             '/autotest/elementary/h_webAuto/' : [{
                 title : 'WEB自动化',
                 collapsable : false,
@@ -936,7 +944,7 @@ module.exports = {
                     'document/其他对象定位_Python',
                     'document/UnitTest_Python',
                     'document/PO模型_Python',
-                    'document/JsonDict_Python',
+                    // 'document/JsonDict_Python',
                     'document/Logging_Python',
                 ]
             }],

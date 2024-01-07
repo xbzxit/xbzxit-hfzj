@@ -3,7 +3,7 @@
 ## 设置日志级别
 
 ```python
-logging.basicConfig(level=logging.DEBUG)
+logging.basic(level=logging.DEBUG)
 ```
 
 ## 日志格式化

@@ -1,6 +1,5 @@
 # Jmeter之JDBC连接
 
-
 ## 环境搭建
 
 ### 下载
@@ -8,7 +7,6 @@
 [Mysql](https://downloads.mysql.com/archives/c-j/)
 
 ![image.png](./assets/1648558160783-image.png)
-
 
 ## 配置
 
@@ -21,14 +19,9 @@
 
 ![image.png](./assets/1648559119654-image.png)
 
-
 ![image.png](./assets/1648559333107-image.png)
 
-
 ### 运行
-
-
-
 
 ## 使用场景
 

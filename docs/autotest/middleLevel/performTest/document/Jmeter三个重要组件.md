@@ -23,28 +23,6 @@
 
 ![image.png](./assets/1669879350579-image.png)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## 查看结果树
 
 ![image.png](./assets/1669879632355-image.png)
