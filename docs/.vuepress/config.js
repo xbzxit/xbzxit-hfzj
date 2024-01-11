@@ -323,8 +323,8 @@ module.exports = {
                         text: '测试高级',
                         items : [
                             {
-                                text : 'Jmeter',
-                                link : '/autotest/highLevel/jmeter/'
+                                text : '',
+                                link : ''
                             },
                         ],
                     },

@@ -25,7 +25,7 @@ logging.error("this is a error...")
 logging.critical("this is a critical...")
 ```
 
-## 将日志输出到指令文件
+## 将日志输出到指定文件
 
 ```python
 fm = "%(asctime)s %(levelname)s [%(name)s] [%(filename)s (%(funcName)s:%(lineno)d] - %(message)s"
