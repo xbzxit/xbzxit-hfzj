@@ -8,11 +8,11 @@
 
 ![image.png](./assets/image.png)
 
-### 安装jdk
+## 安装jdk
 
 > 因为Jmeter是java开发的，需要JRE来支持
 
-### 配置Jmeter环境变量
+## 配置Jmeter环境变量
 
 * JMETER_HOME
 
@@ -26,6 +26,6 @@
 
 ![image.png](./assets/1704803283915-image.png)
 
-### 验证
+## 验证
 
 ![image.png](./assets/1704803523978-image.png)

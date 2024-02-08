@@ -1013,17 +1013,7 @@ module.exports = {
                 collapsable : false,
                 children : [
                     '',
-                    'document/Jmeter概念策略指标流程',
                     'document/Jmeter入门',
-                    'document/Jmeter三个重要组件',
-                    'document/Jmeter参数化',
-                    'document/Jmeter断言',
-                    'document/Jmeter关联',
-                    'document/Jmeter自动录制脚本',
-                    'document/Jmeter直连数据库',
-                    'document/Jmeter逻辑控制器',
-                    'document/Jmeter定时器',
-                    'document/项目实战',
                 ]
             }],
             '/autotest/middleLevel/appTest/' : [{
