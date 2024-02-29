@@ -99,63 +99,63 @@ module.exports = {
                 ],
             },
 
-            {
-                text: 'Python开发',
-                items: [
-                    {
-                        text: 'Python小白',
-                        items : [
-                            {
-                                text: '基础语法',
-                                link: '/python/noob/basicGrammar/'
-                            },
-                            {
-                                text: 'Python小白',
-                                link: '/python/noob/'
-                            },
-                        ],
-                    },
-                    {
-                        text: 'Python入门',
-                        items : [
-                            {
-                                text: 'Python入门',
-                                link: '/python/started/'
-                            },
-                        ],
-
-                    },
-                    {
-                        text: 'Python初级',
-                        items : [
-                            {
-                                text: 'Python初级',
-                                link: '/python/elementary/'
-                            },
-                        ],
-
-                    },
-                    {
-                        text: 'Python中级',
-                        items : [
-                            {
-                                text: 'Python中级',
-                                link: '/python/middleLevel/'
-                            },
-                        ],
-
-                    },
-                    {
-                        text: 'Python高级',
-                        items : [
-                            {
-                                text: 'Python高级',
-                                link: '/python/highLevel/'
-                            },
-                        ],
-                    },
-                ],
-            },
+            // {
+            //     text: 'Python开发',
+            //     items: [
+            //         {
+            //             text: 'Python小白',
+            //             items : [
+            //                 {
+            //                     text: '基础语法',
+            //                     link: '/python/noob/basicGrammar/'
+            //                 },
+            //                 {
+            //                     text: 'Python小白',
+            //                     link: '/python/noob/'
+            //                 },
+            //             ],
+            //         },
+            //         {
+            //             text: 'Python入门',
+            //             items : [
+            //                 {
+            //                     text: 'Python入门',
+            //                     link: '/python/started/'
+            //                 },
+            //             ],
+            //
+            //         },
+            //         {
+            //             text: 'Python初级',
+            //             items : [
+            //                 {
+            //                     text: 'Python初级',
+            //                     link: '/python/elementary/'
+            //                 },
+            //             ],
+            //
+            //         },
+            //         {
+            //             text: 'Python中级',
+            //             items : [
+            //                 {
+            //                     text: 'Python中级',
+            //                     link: '/python/middleLevel/'
+            //                 },
+            //             ],
+            //
+            //         },
+            //         {
+            //             text: 'Python高级',
+            //             items : [
+            //                 {
+            //                     text: 'Python高级',
+            //                     link: '/python/highLevel/'
+            //                 },
+            //             ],
+            //         },
+            //     ],
+            // },
 
             //
             // {
@@ -263,10 +263,10 @@ module.exports = {
                     {
                         text: '测试初级',
                         items : [
-                            {
-                                text : 'Python编程基础',
-                                link : '/autotest/elementary/f_python/'
-                            },
+                            // {
+                            //     text : 'Python编程基础',
+                            //     link : '/autotest/elementary/f_python/'
+                            // },
                             // {
                             //     text : '前端知识',
                             //     link : ''
@@ -331,9 +331,9 @@ module.exports = {
                 ],
             },
 
-            {
-                text: '前端开发',
-                items: [
+            // {
+            //     text: '前端开发',
+            //     items: [
             //         {
             //             text: '前端小白',
             //             items : [
@@ -394,18 +394,18 @@ module.exports = {
             //             ],
             //
             //         },
-                    {
-                        text: '前端高级',
-                        items : [
-                            {
-                                text : '微信小程序',
-                                link : '/frontEnd/highLevel/miniprogram/'
-                            },
-                        ],
-
-                    },
-                ],
-            },
+            //         {
+            //             text: '前端高级',
+            //             items : [
+            //                 {
+            //                     text : '微信小程序',
+            //                     link : '/frontEnd/highLevel/miniprogram/'
+            //                 },
+            //             ],
+            //
+            //         },
+            //     ],
+            // },
 
             {
                 text: '项目实战',
@@ -413,18 +413,18 @@ module.exports = {
                     {
                         text: 'Java',
                         items : [
-                            {
-                                text : '慕课新闻',
-                                link : '/project/java/mook-news/'
-                            },
-                            {
-                                text : '十项全能',
-                                link : '/project/java/mu10allround/'
-                            },
-                            {
-                                text : '技术专家',
-                                link : '/project/java/technician/'
-                            },
+                            // {
+                            //     text : '慕课新闻',
+                            //     link : '/project/java/mook-news/'
+                            // },
+                            // {
+                            //     text : '十项全能',
+                            //     link : '/project/java/mu10allround/'
+                            // },
+                            // {
+                            //     text : '技术专家',
+                            //     link : '/project/java/technician/'
+                            // },
                             {
                                 text : '谷粒商城',
                                 link : '/project/java/gmall/'
@@ -505,55 +505,55 @@ module.exports = {
                 ],
             },
 
-            {
-                text: '计算机知识',
-                items: [
-                    {
-                        text: '必修课',
-                        items : [
-                            {
-                                text : '计算机组成原理',
-                                link : '/cxybb/elementary/jsjzcyl/'
-                            },
-                            {
-                                text : '操作系统',
-                                link : '/cxybb/elementary/czxt/'
-                            },
-                            {
-                                text : '计算机网络',
-                                link : '/cxybb/elementary/jsjwl/'
-                            },
-                        ]
-                    },
-                    {
-                        text: '系统集成师',
-                        items : [
-                            {
-                                text : '系统集成理论',
-                                link : '/cxybb/elementary/jsjwl/'
-                            }
-                        ]
-                    },
-                    {
-                        text: '软件设计',
-                        items : [
-                            {
-                                text : '软件设计理论',
-                                link : '/cxybb/elementary/jsjwl/'
-                            }
-                        ]
-                    },
-                    {
-                        text: '软件评测',
-                        items : [
-                            {
-                                text : '测试理论',
-                                link : '/cxybb/elementary/jsjzcyl/'
-                            },
-                        ]
-                    }
-                ]
-            },
+            // {
+            //     text: '计算机知识',
+            //     items: [
+            //         {
+            //             text: '必修课',
+            //             items : [
+            //                 {
+            //                     text : '计算机组成原理',
+            //                     link : '/cxybb/elementary/jsjzcyl/'
+            //                 },
+            //                 {
+            //                     text : '操作系统',
+            //                     link : '/cxybb/elementary/czxt/'
+            //                 },
+            //                 {
+            //                     text : '计算机网络',
+            //                     link : '/cxybb/elementary/jsjwl/'
+            //                 },
+            //             ]
+            //         },
+            //         {
+            //             text: '系统集成师',
+            //             items : [
+            //                 {
+            //                     text : '系统集成理论',
+            //                     link : '/cxybb/elementary/jsjwl/'
+            //                 }
+            //             ]
+            //         },
+            //         {
+            //             text: '软件设计',
+            //             items : [
+            //                 {
+            //                     text : '软件设计理论',
+            //                     link : '/cxybb/elementary/jsjwl/'
+            //                 }
+            //             ]
+            //         },
+            //         {
+            //             text: '软件评测',
+            //             items : [
+            //                 {
+            //                     text : '测试理论',
+            //                     link : '/cxybb/elementary/jsjzcyl/'
+            //                 },
+            //             ]
+            //         }
+            //     ]
+            // },
 
             {
                 text : 'HFZJ',
@@ -607,8 +607,8 @@ module.exports = {
                 collapsable : false,
                 children : [
                     '',
-                    'document/OracleClient',
-                    'document/Oracle安装',
+                    'document/Oracle客户端安装',
+                    'document/Oracle服务端安装',
                     'document/Oracle入门',
                     'document/多表查询',
                     'document/PLSQL基础语法',
