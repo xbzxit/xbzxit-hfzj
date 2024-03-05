@@ -302,7 +302,7 @@ module.exports = {
                             },
                             {
                                 text : '性能测试',
-                                link : '/autotest/middleLevel/performTest/'
+                                link : '/autotest/middleLevel/JMeter/'
                             },
 
                             // {
@@ -1008,12 +1008,23 @@ module.exports = {
 
                 ]
             }],
-            '/autotest/middleLevel/performTest/' : [{
+            '/autotest/middleLevel/JMeter/' : [{
                 title : '性能测试',
                 collapsable : false,
                 children : [
                     '',
-                    'document/Jmeter入门',
+                    'document/性能测试理论',
+                    'document/Jmeter环境搭建',
+                    'document/Jmeter元件',
+                    'document/Jmeter参数化',
+                    'document/Jmeter断言',
+                    'document/Jmeter关联',
+                    'document/Jmeter录制脚本',
+                    'document/Jmeter连接数据库',
+                    'document/Jmeter逻辑控制器',
+                    'document/Jmeter定时器',
+                    'document/Jmeter分布式',
+                    'document/Jmeter报告',
                 ]
             }],
             '/autotest/middleLevel/appTest/' : [{

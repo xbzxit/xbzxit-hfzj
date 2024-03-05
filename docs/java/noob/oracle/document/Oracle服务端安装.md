@@ -1,4 +1,4 @@
-# Oracle安装
+# Oracle服务端安装
 
 ## Oracle服务端安装
 
