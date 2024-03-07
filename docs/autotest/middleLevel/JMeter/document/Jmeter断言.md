@@ -8,7 +8,6 @@
 > json断言：对json格式的响应数据进行断言
 > 持续时间断言：对响应时间进行断言
 
-
 ![image.png](./assets/1709600791845-image.png)
 
 ## 响应断言
@@ -59,14 +58,11 @@
 
 > -即填写你指定的结果（可填写多个),按钮【添加】、【删除】是进行指定内容的管理
 
-
 ### 练习
 
 > 检查百度首页的接口响应中包含“百度一下,你就知道”
 
 ![image.png](./assets/1709604243529-image.png)
-
-
 
 > 响应断言中，有多个待校验的测试数据
 
@@ -74,18 +70,39 @@
 
 ![image.png](./assets/1709604500874-image.png)
 
-
 ![image.png](./assets/1709604552499-image.png)
-
 
 ## JSON断言
 
 > HTTP响应结果为JSON时，就可以使用JSON断言
 
 
+**参数介绍:**
 
-![image.png](./assets/1709604982826-image.png)
+* Assert JsoN Path exists:用于断言的JSON元素的路径(实际结果)
+* Additionally assert value: 如果您想要用某个值生成断言，请选择复选框
+* Match as regular expression:使用正则表达式断言
+* Expected value:期望值(期结果)
+* Expect nu11:如果希望为空，请选择复选框
+* Invert assertion(will fail if above conditionsmet):反转断言(如果满足以上条件则失败)
+
+### 练习
+
+![image.png](./assets/1709773985259-image.png)
+
+
+![image.png](./assets/1709773676725-image.png)
 
 
 
 ## 断言持续时间
+
+> 持续时间是指不能超过这个时间
+
+
+### 练习
+
+![image.png](./assets/1709774079292-image.png)
+
+
+![image.png](./assets/1709774094994-image.png)
