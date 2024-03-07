@@ -30,7 +30,12 @@
 
 > 任意格式的响应数据，都可以使用正则表达式提取器进行提取
 
-![image.png](./assets/1709617573412-image.png)
+![image.png](./assets/1709774559786-image.png)
+
+![image.png](./assets/1709774582971-image.png)
+
+![image.png](./assets/1709774592757-image.png)
+
 
 ### 练习
 

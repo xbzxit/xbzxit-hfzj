@@ -1015,6 +1015,7 @@ module.exports = {
                     '',
                     'document/性能测试理论',
                     'document/Jmeter环境搭建',
+                    'document/Jmeter使用示例',
                     'document/Jmeter元件',
                     'document/Jmeter参数化',
                     'document/Jmeter断言',
