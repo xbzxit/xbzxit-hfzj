@@ -76,7 +76,6 @@
 
 > HTTP响应结果为JSON时，就可以使用JSON断言
 
-
 **参数介绍:**
 
 * Assert JsoN Path exists:用于断言的JSON元素的路径(实际结果)
@@ -90,19 +89,14 @@
 
 ![image.png](./assets/1709773985259-image.png)
 
-
 ![image.png](./assets/1709773676725-image.png)
-
-
 
 ## 断言持续时间
 
 > 持续时间是指不能超过这个时间
 
-
 ### 练习
 
 ![image.png](./assets/1709774079292-image.png)
-
 
 ![image.png](./assets/1709774094994-image.png)

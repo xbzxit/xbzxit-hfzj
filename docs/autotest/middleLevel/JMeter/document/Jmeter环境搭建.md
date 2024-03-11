@@ -1,8 +1,18 @@
 # Jmeter入门
 
+> 软件版本要求：
+>
+> JMeter 5.4.1
+>
+> jmeter-plugins-manager-1.10.jar
+>
+> ServerAgent 2.2.3
+>
+> jdk 1.8.191
+
 ## 简介
 
-> Apache JMeter是Apache组织开发的基于Java的压力测试工具，是一款开源软件，并且是100%的纯java开发，可以在window和linux止面运行。
+> Apache JMeter是Apache组织开发的基于Java的压力测试工具，是一款开源软件，并且是100%的纯java开发，可以在window和linux直接运行。
 
 ## 下载
 
