@@ -1026,6 +1026,7 @@ module.exports = {
                     'document/Jmeter定时器',
                     'document/Jmeter分布式',
                     'document/Jmeter报告',
+                    'document/Jmeter并发数计算法',
                 ]
             }],
             '/autotest/middleLevel/appTest/' : [{
