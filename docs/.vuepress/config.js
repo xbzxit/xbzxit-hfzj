@@ -331,6 +331,96 @@ module.exports = {
                 ],
             },
 
+            {
+                text: '天天吃货',
+                items: [
+                    {
+                        text: '阶段一：单体电商项目架构，开发与上线',
+                        items : [
+                            {
+                                text : 'Week01_万丈高楼，地基首要',
+                                link : '/project/java/foodie/week01/'
+                            },
+                            {
+                                text : 'Week02_分类，推荐，搜索，评价，购物车开发',
+                                link : '/project/java/foodie/week02/'
+                            },
+                            {
+                                text : 'Week03_ 地址订单支付定时任务开发',
+                                link : '/project/java/foodie/week03/'
+                            },
+                            {
+                                text : 'Week04_用户中心 ,订单',
+                                link : '/project/java/foodie/week04/'
+                            },
+                            {
+                                text : 'Week05_云服务器部署上线',
+                                link : '/project/java/foodie/week05/'
+                            },
+                        ],
+                    },
+                    {
+                        text: '阶段二：从单体到高可用集群演进',
+                        items : [
+                            {
+                                text : 'Week06_LVS+Nginx实现高可用集群',
+                                link : '/project/java/foodie/week06/'
+                            },
+                            {
+                                text : 'Week07_主从复制高可用Redis集群',
+                                link : '/project/java/foodie/week07/'
+                            },
+                            {
+                                text : 'Week08_Redis缓存雪崩，穿透',
+                                link : '/project/java/foodie/week08/'
+                            },
+                        ],
+                    },
+                    {
+                        text: '阶段三：逐个击破分布式核心问题',
+                        items : [
+                            {
+                                text : 'Week09_分布式会话与单点登录SSO',
+                                link : '/project/java/foodie/week09/'
+                            },
+                            {
+                                text : 'Week10_分布式搜索引擎-Elasticsearch',
+                                link : '/project/java/foodie/week10/'
+                            },
+                            {
+                                text : 'Week11_分布式文件系统-FastDFS+阿里OSS',
+                                link : '/project/java/foodie/week11/'
+                            },
+                            {
+                                text : 'Week12_分布式消息队列-RabbitMQ',
+                                link : '/project/java/foodie/week12/'
+                            },
+                            {
+                                text : 'Week13_分布式消息队列-Kafka',
+                                link : '/project/java/foodie/week13/'
+                            },
+                            {
+                                text : 'Week14_分布式锁',
+                                link : '/project/java/foodie/week14/'
+                            },
+                            {
+                                text : 'Week15_读写分离、分库分表',
+                                link : '/project/java/foodie/week15/'
+                            },
+                            {
+                                text : 'Week16_分布式全局ID、分布式事务和数据一致性',
+                                link : '/project/java/foodie/week16/'
+                            },
+                            {
+                                text : 'Week17_分布式接口幂等性，分布式限流',
+                                link : '/project/java/foodie/week17/'
+                            },
+                        ],
+                    },
+
+                ]
+            },
+
             // {
             //     text: '前端开发',
             //     items: [
@@ -1198,7 +1288,6 @@ module.exports = {
                     '',
                 ]
             }],
-
             '/project/java/mu10allround/' : [{
                 title : '十项全能',
                 collapsable : false,
@@ -1214,7 +1303,6 @@ module.exports = {
                     'document/技法套路二_微服务架构设计技法',
                 ]
             }],
-
             '/project/java/technician/' : [{
                 title : '技术专家',
                 collapsable : false,
@@ -1222,7 +1310,6 @@ module.exports = {
                     '',
                 ]
             }],
-
             '/project/java/gmall/' : [{
                 title : '谷粒商城',
                 collapsable : false,
@@ -1236,12 +1323,29 @@ module.exports = {
                     'document/ES6',
                 ]
             }],
-
             '/project/java/hfNas/' : [{
                 title : '个人NAS',
                 collapsable : false,
                 children : [
                     '',
+                ]
+            }],
+            //endregion
+
+
+            //region 天天吃货
+            '/project/java/foodie/week01/' : [{
+                title : 'Week01_万丈高楼，地基首要',
+                collapsable : false,
+                children : [
+                    '',
+                    'document/课程导学',
+                    'document/大型网站的特点与设计宗旨',
+                    'document/大型网站架构演变历程',
+                    'document/架构师所需要具备的技术栈与能力',
+                    'document/关于异构系统的讨论',
+                    'document/高端职位内推信息',
+                    'document/单体架构阶段概述与项目演示',
                 ]
             }],
             //endregion

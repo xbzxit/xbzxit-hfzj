@@ -32,13 +32,25 @@
 
 ![image.png](./assets/1709774559786-image.png)
 
+![image.png](./assets/1710148289937-image.png)
+
+
 ![image.png](./assets/1709774582971-image.png)
 
 ![image.png](./assets/1709774592757-image.png)
 
+![image.png](./assets/1710148312352-image.png)
+
+
 ### 练习
 
 > 获取传智播客首页的地址，把第5个校区地址作为参数传递（span为地址的校区）
+
+
+
+
+
+
 
 ## Xpath提取器
 
@@ -47,22 +59,5 @@
 > //b[@name='kw']： 在HTML页面中，找出b标签（有一个属性为name，且name的值为kw）
 > 案例2：获取itcast中的title标签，
 > 使用：//title
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## JSON提取器
