@@ -1346,6 +1346,9 @@ module.exports = {
                     'document/关于异构系统的讨论',
                     'document/高端职位内推信息',
                     'document/单体架构阶段概述与项目演示',
+                    'document/聚合工程',
+                    'document/SpringBoot自动装配',
+                    'document/HikariCP数据源简述',
                 ]
             }],
             //endregion

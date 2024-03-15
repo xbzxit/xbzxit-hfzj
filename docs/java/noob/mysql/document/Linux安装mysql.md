@@ -12,11 +12,13 @@ tar -xvf mysql-5.7.29-1.el7.x86_64.rpm-bundle.tar
 
 ## 查找核心包
 rpm -qa|grep mariadb
-    mariadb-libs-5.5.60-1.el7_5.x86_64
+这是查询的结果，不是命令    mariadb-libs-5.5.60-1.el7_5.x86_64
 
 ## 安装核心包
 rpm -e --nodeps mariadb-libs-5.5.60-1.el7_5.x86_64
 
+cd /usr/local
+mkdir mysql
 chmod -R 777 mysql
 
 ## 安装组件
@@ -45,6 +47,7 @@ mysql
 update mysql.user set authentication_string=password('root') where user='root';
 flush privileges;
 
+在MySQL命令行执行exit
 
 ## 
 systemctl stop mysqld.service
@@ -80,6 +83,8 @@ firewall-cmd --zone=public --add-port=3306/tcp --permanent
 --add-port=80/tcp #添加端口，格式为：端口/通讯协议
 --permanent #永久生效，没有此参数重启后失效
 
+# 修改不用户密码
+alter user user() identified by "123456";
 
 ## 远程登录
 grant all privileges on *.* to 'root'@'%' identified by '123456' with grant option;
