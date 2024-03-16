@@ -1021,7 +1021,6 @@ module.exports = {
                 collapsable : false,
                 children : [
                     '',
-                    'document/Python基础',
                 ]
             }],
             '/autotest/elementary/h_webAuto/' : [{
@@ -1340,15 +1339,8 @@ module.exports = {
                 children : [
                     '',
                     'document/课程导学',
-                    'document/大型网站的特点与设计宗旨',
-                    'document/大型网站架构演变历程',
-                    'document/架构师所需要具备的技术栈与能力',
-                    'document/关于异构系统的讨论',
-                    'document/高端职位内推信息',
-                    'document/单体架构阶段概述与项目演示',
                     'document/聚合工程',
                     'document/SpringBoot自动装配',
-                    'document/HikariCP数据源简述',
                 ]
             }],
             //endregion
