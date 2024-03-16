@@ -60,12 +60,6 @@ module.exports = {
                             {text : 'Linux', link : '/java/noob/linux/'},
                         ],
                     },
-                    // {
-                    //     text: 'Java入门',
-                    //     items : [
-                    //         {text : 'HtmlCssJs', link : '/java/started/HtmlCssJs/'},
-                    //     ],
-                    // },
                     {
                         text: 'Java初级',
                         items : [
@@ -91,141 +85,8 @@ module.exports = {
                             {text : 'CICD', link : '/java/middleLevel/CICD/'},
                         ],
                     },
-                    {
-                        text: 'Java高级',
-                        items : [
-                        ],
-                    },
                 ],
             },
-
-            // {
-            //     text: 'Python开发',
-            //     items: [
-            //         {
-            //             text: 'Python小白',
-            //             items : [
-            //                 {
-            //                     text: '基础语法',
-            //                     link: '/python/noob/basicGrammar/'
-            //                 },
-            //                 {
-            //                     text: 'Python小白',
-            //                     link: '/python/noob/'
-            //                 },
-            //             ],
-            //         },
-            //         {
-            //             text: 'Python入门',
-            //             items : [
-            //                 {
-            //                     text: 'Python入门',
-            //                     link: '/python/started/'
-            //                 },
-            //             ],
-            //
-            //         },
-            //         {
-            //             text: 'Python初级',
-            //             items : [
-            //                 {
-            //                     text: 'Python初级',
-            //                     link: '/python/elementary/'
-            //                 },
-            //             ],
-            //
-            //         },
-            //         {
-            //             text: 'Python中级',
-            //             items : [
-            //                 {
-            //                     text: 'Python中级',
-            //                     link: '/python/middleLevel/'
-            //                 },
-            //             ],
-            //
-            //         },
-            //         {
-            //             text: 'Python高级',
-            //             items : [
-            //                 {
-            //                     text: 'Python高级',
-            //                     link: '/python/highLevel/'
-            //                 },
-            //             ],
-            //         },
-            //     ],
-            // },
-
-            //
-            // {
-            //     text: 'Linux云计算',
-            //     items: [
-            //         {
-            //             text: 'Linux小白',
-            //             items : [
-            //                 {
-            //                     text : 'Linux操作系统',
-            //                     link : '/linux/noob/linuxSystem/'
-            //                 },
-            //                 {
-            //                     text : 'Linux必备命令',
-            //                     link : '/linux/noob/linuxCmd/'
-            //                 },
-            //                 {
-            //                     text : '用户管理',
-            //                     link : '/linux/noob/userManager/'
-            //                 },
-            //             ],
-            //         },
-            //         {
-            //             text: 'Linux入门',
-            //             items : [
-            //                 {
-            //                     text : 'VimTar',
-            //                     link : '/linux/started/vimTar/'
-            //                 },
-            //                 {
-            //                     text : 'yum与网络',
-            //                     link : '/linux/started/yumNetwork/'
-            //                 },
-            //                 {
-            //                     text : '硬盘分区',
-            //                     link : '/linux/started/diskSwap/'
-            //                 },
-            //             ],
-            //         },
-            //         {
-            //             text: 'Linux初级',
-            //             items : [
-            //                 {
-            //                     text : '硬盘分区',
-            //                     link : '/linux/started/diskSwap/'
-            //                 },
-            //             ],
-            //         },
-            //         {
-            //             text: 'Linux中级',
-            //             items : [
-            //                 {
-            //                     text : '硬盘分区',
-            //                     link : '/linux/started/diskSwap/'
-            //                 },
-            //             ],
-            //         },
-            //         {
-            //             text: 'Linux高级',
-            //             items : [
-            //                 {
-            //                     text : '硬盘分区',
-            //                     link : '/linux/started/diskSwap/'
-            //                 },
-            //             ],
-            //         },
-            //
-            //     ],
-            // },
-            //
 
             {
                 text: '软件测试',
@@ -242,43 +103,19 @@ module.exports = {
                     {
                         text: '测试入门',
                         items : [
-                            // {
-                            //     text : '测试用例设计',
-                            //     link : ''
-                            // },
                             {
                                 text : '测试计划与工具',
                                 link : '/autotest/started/b_testPlanTools/'
                             },
-                            // {
-                            //     text : '企业环境搭建',
-                            //     link : ''
-                            // },
-                            // {
-                            //     text : '数据库操作',
-                            //     link : ''
-                            // },
                         ],
                     },
                     {
                         text: '测试初级',
                         items : [
-                            // {
-                            //     text : 'Python编程基础',
-                            //     link : '/autotest/elementary/f_python/'
-                            // },
-                            // {
-                            //     text : '前端知识',
-                            //     link : ''
-                            // },
                             {
                                 text : 'WEB自动化',
                                 link : '/autotest/elementary/h_webAuto/'
                             },
-                            // {
-                            //     text : '单元测试',
-                            //     link : ''
-                            // },
                             {
                                 text : 'shell脚本',
                                 link : '/autotest/elementary/j_shell/'
@@ -304,19 +141,6 @@ module.exports = {
                                 text : '性能测试',
                                 link : '/autotest/middleLevel/JMeter/'
                             },
-
-                            // {
-                            //     text : 'Redis',
-                            //     link : ''
-                            // },
-                            // {
-                            //     text : '数据结构',
-                            //     link : ''
-                            // },
-                            // {
-                            //     text : '数据库综合演练',
-                            //     link : ''
-                            // },
                         ],
                     },
                     {
@@ -421,82 +245,6 @@ module.exports = {
                 ]
             },
 
-            // {
-            //     text: '前端开发',
-            //     items: [
-            //         {
-            //             text: '前端小白',
-            //             items : [
-            //                 {
-            //                     text : 'HTML',
-            //                     link : '/frontEnd/noob/html/'
-            //                 },
-            //                 {
-            //                     text : 'CSS',
-            //                     link : '/frontEnd/noob/css/'
-            //                 },
-            //                 {
-            //                     text : 'JavaScript',
-            //                     link : '/frontEnd/noob/js/'
-            //                 },
-            //                 {
-            //                     text : 'JS高级',
-            //                     link : '/frontEnd/noob/jsAdv/'
-            //                 },
-            //                 {
-            //                     text : 'jQuery',
-            //                     link : '/frontEnd/noob/jquery/'
-            //                 },
-            //             ],
-            //
-            //         },
-            //         {
-            //             text: '前端入门',
-            //             items : [
-            //                 {
-            //                     text : 'NodeJS',
-            //                     link : '/frontEnd/started/nodeJs/'
-            //                 },
-            //                 {
-            //                     text : 'MongoDB',
-            //                     link : '/frontEnd/started/mongdb/'
-            //                 },
-            //             ],
-            //
-            //         },
-            //         {
-            //             text: '前端初级',
-            //             items : [
-            //                 {
-            //                     text : 'NodeJS',
-            //                     link : '/frontEnd/elementary/nodeJs/'
-            //                 },
-            //             ],
-            //
-            //         },
-            //         {
-            //             text: '前端中级',
-            //             items : [
-            //                 {
-            //                     text : 'NodeJS',
-            //                     link : '/frontEnd/started/nodeJs/'
-            //                 },
-            //             ],
-            //
-            //         },
-            //         {
-            //             text: '前端高级',
-            //             items : [
-            //                 {
-            //                     text : '微信小程序',
-            //                     link : '/frontEnd/highLevel/miniprogram/'
-            //                 },
-            //             ],
-            //
-            //         },
-            //     ],
-            // },
-
             {
                 text: '项目实战',
                 items: [
@@ -595,56 +343,6 @@ module.exports = {
                 ],
             },
 
-            // {
-            //     text: '计算机知识',
-            //     items: [
-            //         {
-            //             text: '必修课',
-            //             items : [
-            //                 {
-            //                     text : '计算机组成原理',
-            //                     link : '/cxybb/elementary/jsjzcyl/'
-            //                 },
-            //                 {
-            //                     text : '操作系统',
-            //                     link : '/cxybb/elementary/czxt/'
-            //                 },
-            //                 {
-            //                     text : '计算机网络',
-            //                     link : '/cxybb/elementary/jsjwl/'
-            //                 },
-            //             ]
-            //         },
-            //         {
-            //             text: '系统集成师',
-            //             items : [
-            //                 {
-            //                     text : '系统集成理论',
-            //                     link : '/cxybb/elementary/jsjwl/'
-            //                 }
-            //             ]
-            //         },
-            //         {
-            //             text: '软件设计',
-            //             items : [
-            //                 {
-            //                     text : '软件设计理论',
-            //                     link : '/cxybb/elementary/jsjwl/'
-            //                 }
-            //             ]
-            //         },
-            //         {
-            //             text: '软件评测',
-            //             items : [
-            //                 {
-            //                     text : '测试理论',
-            //                     link : '/cxybb/elementary/jsjzcyl/'
-            //                 },
-            //             ]
-            //         }
-            //     ]
-            // },
-
             {
                 text : 'HFZJ',
                 items: [{
@@ -674,19 +372,6 @@ module.exports = {
                 collapsable : false,
                 children : [
                     '',
-                ]
-            }],
-            //endregion
-
-            //region Python部分
-            '/python/noob/basicGrammar/' : [{
-                title : '基础语法',
-                collapsable : false,
-                children : [
-                    '',
-                    // 'document/开发环境搭建',
-                    // 'document/Python入门程序',
-                    // 'document/Python基础语法',
                 ]
             }],
             //endregion
@@ -970,18 +655,6 @@ module.exports = {
             }],
             //endregion
 
-            //region linux
-            '/linux/noob/linuxSystem/' : [{
-                title : 'Linux操作系统',
-                collapsable : false,
-                children : [
-                    '',
-                    'document/网络模型',
-                    'document/Linux目录',
-                ]
-            }],
-            //endregion
-
             //region 自动化测试
             '/autotest/noob/basicsComputer/' : [{
                 title : '计算机基础',
@@ -1016,13 +689,6 @@ module.exports = {
                     'document/QC',
                 ]
             }],
-            '/autotest/elementary/f_python/' : [{
-                title : 'Python脚本',
-                collapsable : false,
-                children : [
-                    '',
-                ]
-            }],
             '/autotest/elementary/h_webAuto/' : [{
                 title : 'WEB自动化',
                 collapsable : false,
@@ -1033,7 +699,6 @@ module.exports = {
                     'document/其他对象定位_Python',
                     'document/UnitTest_Python',
                     'document/PO模型_Python',
-                    // 'document/JsonDict_Python',
                     'document/Logging_Python',
                 ]
             }],
@@ -1148,48 +813,6 @@ module.exports = {
             }],
             //endregion
 
-            //region 前端开发
-            '/frontEnd/noob/js/' : [{
-                title : 'JavaScript',
-                collapsable : false,
-                children : [
-                    '',
-                    'document/JS认识',
-                    'document/JS基础语法',
-                    'document/运算符',
-                    'document/条件判断',
-                    'document/循环',
-                    'document/面向对象',
-                    'document/数组',
-                    'document/常用对象',
-                    'document/正则表达式',
-                    'document/DOM',
-                    'document/事件',
-                    'document/定时器',
-                    'document/JSON',
-                ]
-            }],
-            '/frontEnd/noob/jquery/' : [{
-                title : 'jQuery',
-                collapsable : false,
-                children : [
-                    '',
-                ]
-            }],
-            //endregion
-
-            '/cxybb/elementary/jsjzcyl/' : [{
-                title : '计算机组成原理',
-                collapsable : false,
-                children : [
-                    '',
-                    'document/计算机概述篇',
-                    'document/计算机组成篇',
-                    'document/计算机计算篇',
-                    'document/计算机实战',
-                ]
-            }],
-
             //region 资料库
             '/database/basicSkills/gxxx/' : [{
                 title : '基础技能',
@@ -1280,35 +903,6 @@ module.exports = {
             //endregion
 
             //region 项目实战
-            '/project/java/mooc-news/' : [{
-                title : '技术专家',
-                collapsable : false,
-                children : [
-                    '',
-                ]
-            }],
-            '/project/java/mu10allround/' : [{
-                title : '十项全能',
-                collapsable : false,
-                children : [
-                    '',
-                    'document/你真的理解什么是架构设计吗',
-                    'document/高潜架构师都具备哪些核心能力',
-                    'document/不讲原则的架构师不是好架构师',
-                    'document/如何衡量一个架构设计是好是坏',
-                    'document/4大架构设计模式_带你领略架构设计精髓',
-                    'document/不会评估_你就只能当一个PPT架构师',
-                    'document/技法套路一_分布式架构设计技法',
-                    'document/技法套路二_微服务架构设计技法',
-                ]
-            }],
-            '/project/java/technician/' : [{
-                title : '技术专家',
-                collapsable : false,
-                children : [
-                    '',
-                ]
-            }],
             '/project/java/gmall/' : [{
                 title : '谷粒商城',
                 collapsable : false,
@@ -1317,21 +911,12 @@ module.exports = {
                     'document/项目简介',
                     'document/环境搭建',
                     'document/逆向工程CRUD',
-                    'document/SpringCloudAlibaba',
+                    'document/SpringCloudAlibaba' ,
                     'document/SpringCloud',
                     'document/ES6',
                 ]
             }],
-            '/project/java/hfNas/' : [{
-                title : '个人NAS',
-                collapsable : false,
-                children : [
-                    '',
-                ]
-            }],
             //endregion
-
-
             //region 天天吃货
             '/project/java/foodie/week01/' : [{
                 title : 'Week01_万丈高楼，地基首要',
