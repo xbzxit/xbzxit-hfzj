@@ -246,33 +246,6 @@ module.exports = {
             },
 
             {
-                text: '项目实战',
-                items: [
-                    {
-                        text: 'Java',
-                        items : [
-                            // {
-                            //     text : '慕课新闻',
-                            //     link : '/project/java/mook-news/'
-                            // },
-                            // {
-                            //     text : '十项全能',
-                            //     link : '/project/java/mu10allround/'
-                            // },
-                            // {
-                            //     text : '技术专家',
-                            //     link : '/project/java/technician/'
-                            // },
-                            {
-                                text : '谷粒商城',
-                                link : '/project/java/gmall/'
-                            },
-                        ],
-                    },
-                ],
-            },
-
-            {
                 text: '知识库',
                 items: [
                     {
@@ -902,20 +875,6 @@ module.exports = {
             }],
             //endregion
 
-            //region 项目实战
-            '/project/java/gmall/' : [{
-                title : '谷粒商城',
-                collapsable : false,
-                children : [
-                    '',
-                    'document/项目简介',
-                    'document/环境搭建',
-                    'document/逆向工程CRUD',
-                    'document/SpringCloudAlibaba' ,
-                    'document/SpringCloud',
-                    'document/ES6',
-                ]
-            }],
             //endregion
             //region 天天吃货
             '/project/java/foodie/week01/' : [{
