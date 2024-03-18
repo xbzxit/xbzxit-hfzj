@@ -900,6 +900,33 @@ module.exports = {
                     'document/用户退出',
                 ]
             }],
+
+            '/project/java/foodie/week02/' : [{
+                title : 'Week02_分类，推荐，搜索，评价，购物车开发',
+                collapsable : false,
+                children : [
+                    '',
+                    'document/首页轮播图',
+                    'document/商品分类',
+                    'document/商品搜索',
+                    'document/商品评价',
+                    'document/购物车',
+                ]
+            }],
+
+            '/project/java/foodie/week03/' : [{
+                title : 'Week03_ 地址订单支付定时任务开发',
+                collapsable : false,
+                children : [
+                    '',
+                    'document/收货地址',
+                    'document/确认订单',
+                    'document/创建订单',
+                    'document/微信支付',
+                    'document/支付宝支付',
+                    'document/定时任务',
+                ]
+            }],
             //endregion
         }
     }
