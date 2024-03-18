@@ -1,4 +1,4 @@
-# SpringBoot自动装配
+# SpringBoot
 
 ## @SpringBootConfiguration
 
