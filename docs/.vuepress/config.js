@@ -891,13 +891,11 @@ module.exports = {
                     'document/整合MyBatis',
                     'document/RestfulAPI',
                     'document/事务的传播',
-                    'document/用户注册',
                     'document/整合Swagger',
                     'document/前端项目部署',
-                    'document/用户登录',
+                    'document/用户管理',
                     'document/Cookie与Session',
                     'document/整合日志',
-                    'document/用户退出',
                 ]
             }],
 
