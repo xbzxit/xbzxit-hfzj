@@ -875,7 +875,6 @@ module.exports = {
             }],
             //endregion
 
-            //endregion
             //region 天天吃货
             '/project/java/foodie/week01/' : [{
                 title : 'Week01_万丈高楼，地基首要',
@@ -883,8 +882,22 @@ module.exports = {
                 children : [
                     '',
                     'document/课程导学',
+                    'document/大型网站介绍',
+                    'document/架构师技能',
+                    'document/架构设计',
                     'document/聚合工程',
-                    'document/SpringBoot自动装配',
+                    'document/SpringBoot',
+                    'document/HikariCP数据源',
+                    'document/MyBatis',
+                    'document/RestfulAPI',
+                    'document/事务的传播',
+                    'document/用户注册',
+                    'document/Swagger',
+                    'document/前端项目部署',
+                    'document/用户登录',
+                    'document/Cookie与Session',
+                    'document/整合日志',
+                    'document/用户退出',
                 ]
             }],
             //endregion
