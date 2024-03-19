@@ -906,8 +906,9 @@ module.exports = {
                     '',
                     'document/首页轮播图',
                     'document/商品分类',
-                    'document/商品搜索',
+                    'document/商品详情',
                     'document/商品评价',
+                    'document/商品搜索',
                     'document/购物车',
                 ]
             }],
