@@ -246,6 +246,163 @@ module.exports = {
             },
 
             {
+                text: '谷粒商城',
+                items: [
+                    {
+                        text: '分布式基础篇',
+                        items: [
+                            {
+                                text: '项目简介',
+                                link: ''
+                            },
+                            {
+                                text: '环境搭建-虚拟机',
+                                link: ''
+                            },
+                            {
+                                text: '逆向工程CRUD',
+                                link: ''
+                            },
+                            {
+                                text: 'SpringCloudAlibaba',
+                                link: ''
+                            },
+                            {
+                                text: 'ES6',
+                                link: ''
+                            },
+                            {
+                                text: 'VUE',
+                                link: ''
+                            },
+                            {
+                                text: '三级分类',
+                                link: ''
+                            },
+                            {
+                                text: 'OSS存储',
+                                link: ''
+                            },
+                            {
+                                text: 'JSR数据校验',
+                                link: ''
+                            },
+                            {
+                                text: '商品管理',
+                                link: ''
+                            },
+                        ]
+                    },
+                    {
+                        text: '分布式高级篇',
+                        items: [
+                            {
+                                text: 'ElasticSearch',
+                                link: '',
+                            },
+                            {
+                                text: '商品上架',
+                                link: '',
+                            },
+                            {
+                                text: 'Nginx',
+                                link: '',
+                            },
+                            {
+                                text: '性能测试',
+                                link: '',
+                            },
+                            {
+                                text: 'Redis',
+                                link: '',
+                            },
+                            {
+                                text: '分布式锁',
+                                link: '',
+                            },
+                            {
+                                text: 'SpringCache',
+                                link: '',
+                            },
+                            {
+                                text: '检索服务',
+                                link: '',
+                            },
+                            {
+                                text: '异步CompletableFuture',
+                                link: '',
+                            },
+                            {
+                                text: '商品详情',
+                                link: '',
+                            },
+                            {
+                                text: '认证服务OAuth2',
+                                link: '',
+                            },
+                            {
+                                text: '购物车',
+                                link: '',
+                            },
+                            {
+                                text: '消息队列RabbitMQ',
+                                link: '',
+                            },
+                            {
+                                text: '订单服务',
+                                link: '',
+                            },
+                            {
+                                text: '分布式事务',
+                                link: '',
+                            },
+                            {
+                                text: '订单服务',
+                                link: '',
+                            },
+                            {
+                                text: '秒杀',
+                                link: '',
+                            },
+                            {
+                                text: 'Sental',
+                                link: '',
+                            },
+                            {
+                                text: '链路追踪Sleuth',
+                                link: '',
+                            }
+                        ]
+                    },
+                    {
+                        text: '高可用集群篇',
+                        items: [
+                            {
+                                text: 'K8S',
+                                link: ''
+                            },
+                            {
+                                text: 'KubeSphere',
+                                link: ''
+                            },
+                            {
+                                text: '集群搭建',
+                                link: ''
+                            },
+                            {
+                                text: '部署',
+                                link: ''
+                            },
+                            {
+                                text: '流水线',
+                                link: ''
+                            },
+                        ]
+                    }
+                ]
+            },
+
+            {
                 text: '知识库',
                 items: [
                     {
@@ -924,6 +1081,16 @@ module.exports = {
                     'document/微信支付',
                     'document/支付宝支付',
                     'document/定时任务',
+                ]
+            }],
+
+            '/project/java/foodie/week06/' : [{
+                title : 'Week06_LVS+Nginx实现高可用集群',
+                collapsable : false,
+                children : [
+                    '',
+                    'document/认识Nginx',
+                    'document/Nginx配置',
                 ]
             }],
             //endregion
