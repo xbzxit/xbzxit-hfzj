@@ -66,6 +66,10 @@ public class Swagger2 {
 > @ApiOperation
 >
 > @ApiParam
+>
+> @ApiModel
+>
+> @ApiModelProperty
 
 ### 用法
 
@@ -80,6 +84,15 @@ public class IndexController {
   
     }
 }
+
+
+
+@ApiModel(value="用户对象", description="从客户端，由用户传入的数据封装在此entity中")
+public class CenterUserBO {
+
+    @ApiModelProperty(value="用户名", name="username", example="json", required = false)
+    private String username;
+
 ```
 
 ## 接口文档
