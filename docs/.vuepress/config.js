@@ -1091,6 +1091,8 @@ module.exports = {
                     '',
                     'document/认识Nginx',
                     'document/Nginx配置',
+                    'document/Redis介绍',
+                    'document/Redis数琚类型',
                 ]
             }],
             //endregion

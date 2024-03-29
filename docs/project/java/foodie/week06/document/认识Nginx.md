@@ -1,5 +1,7 @@
 # 认识Nginx
 
+## 什么是正向代理
+
 ## 什么是Nginx
 
 > http和反向代理WEB服务器
@@ -9,6 +11,8 @@
 > 用户 请求目标服务器， 由代理服务器决定访问哪个IP
 
 ## 反向代理至路由
+
+![image.png](./assets/1711628975469-image.png)
 
 ## 安装
 
@@ -82,5 +86,10 @@
 
 ![image.png](./assets/image.png)
 
-
 ## Worker抢占机制
+
+```json
+# 默认使用epoll
+
+use epoll;
+```
