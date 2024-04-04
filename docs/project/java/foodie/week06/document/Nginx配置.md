@@ -2,7 +2,7 @@
 
 > 删除无用的配置
 >
-> ngin.conf
+> nginx.conf
 
 ## 配置结构与指令语法
 

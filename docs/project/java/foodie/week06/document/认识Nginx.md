@@ -4,32 +4,53 @@
 
 ## 什么是Nginx
 
-> http和反向代理WEB服务器
+> 一种web服务器，之前接触的有Tomcat
+>
+> Nginx 是 http和反向代理WEB服务器
 
-## 什么是反向代理
+## 正常代理
+
+![image.png](./assets/1712232326087-image.png)
+
+## 反向代理
 
 > 用户 请求目标服务器， 由代理服务器决定访问哪个IP
 
+![image.png](./assets/1712232498788-image.png)
+
 ## 反向代理至路由
 
+> 路由  center / shop / image
+>
+> 根据不同的路由访问指定的服务器
+
 ![image.png](./assets/1711628975469-image.png)
+
+## 下载
+
+> [nginx](http://nginx.org)
+
+![image.png](./assets/1712234460891-image.png)
+
+```shell
+#1.去官网http://nginx.org/下载对应的nginx包，推荐使用稳定版
+```
 
 ## 安装
 
 ```shell
-#1.去官网http://nginx.org/下载对应的nginx包，推荐使用稳定版本
-
+#1.去官网http://nginx.org/下载对应的nginx包，推荐使用稳定版
 #2.上传nginx到linux系统
 
 #3. 安装依赖环境
     #(1)安装gcc环境
-      yum installgcc-c++
+      yum install gcc-c++
     #(2)安装PCRE库，用于解析正则表达式
-      yum instally pcre pcre-devel
+      yum install -y pcre pcre-devel
     #(3)zlib压缩和解压缩依赖
-      yum installyzlib zlib-devel
+      yum install -y zlib zlib-devel
     #(4)SSL安全的加密的套接字协议层，用于HTTP安全传输，也就是hitps
-      yum instally openssl openssl-devel
+      yum install -y openssl openssl-devel
 
 #4.解压,需要注意,解压后得到的是源码，源码需要编译后才能安装
   tar -zxvf nginx-1.16.1.tar.gz
@@ -82,14 +103,13 @@
 
 ```
 
+## 访问
+
+> http://ip:80
+
+![image.png](./assets/1712238068271-image.png)
+
+
 ## 进程模型解析
 
 ![image.png](./assets/image.png)
-
-## Worker抢占机制
-
-```json
-# 默认使用epoll
-
-use epoll;
-```
