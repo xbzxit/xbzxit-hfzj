@@ -53,6 +53,7 @@ module.exports = {
                     {
                         text: 'Java小白',
                         items : [
+                            {text : 'Java8', link : '/java/noob/java8/'},
                             {text : 'Oracle', link : '/java/noob/oracle/'},
                             {text : 'mysql', link : '/java/noob/mysql/'},
                             {text : 'PostgreSql', link : '/java/noob/PostgreSql/'},
@@ -406,11 +407,11 @@ module.exports = {
                 text: '知识库',
                 items: [
                     {
-                        text: '必备技能',
+                        text: '技多不压身',
                         items : [
                             {
-                                text : '高效学习',
-                                link : '/database/basicSkills/gxxx/'
+                                text : '必备技能',
+                                link : '/database/basicSkills/bbjn/'
 
                             },
                             {
@@ -507,6 +508,20 @@ module.exports = {
             //endregion
 
             //region java部分
+            '/java/noob/java8/' : [{
+                title : 'Java8',
+                collapsable : false,
+                children : [
+                    '',
+                    'document/Lambda表达式',
+                    'document/函数式接口',
+                    'document/方法引用与构造器引用',
+                    'document/StreamAPI',
+                    'document/接口默认方法与静态方法',
+                    'document/新时间日期API',
+                    'document/其他新特性',
+                ]
+            }],
             '/java/noob/oracle/' : [{
                 title : 'Oracle',
                 collapsable : false,
@@ -944,8 +959,8 @@ module.exports = {
             //endregion
 
             //region 资料库
-            '/database/basicSkills/gxxx/' : [{
-                title : '基础技能',
+            '/database/basicSkills/bbjn/' : [{
+                title : '必备技能',
                 collapsable : false,
                 children : [
                     '',
@@ -974,12 +989,12 @@ module.exports = {
                 ]
             }],
             '/database/code/java/' : [{
-                title : '常用代码',
+                title : '工具类',
                 collapsable : false,
                 children : [
                     '',
                     'document/文件上传下载',
-                    'document/List常见操作',
+                    'document/集合常见操作',
                     'document/Json处理',
                     'document/Redis工具类',
                     'document/字符串处理',
@@ -988,7 +1003,7 @@ module.exports = {
                 ]
             }],
             '/database/tools/java/' : [{
-                title : '工具使用',
+                title : '开发工具',
                 collapsable : false,
                 children : [
                     '',

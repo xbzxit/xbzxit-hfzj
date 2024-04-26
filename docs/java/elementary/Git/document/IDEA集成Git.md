@@ -62,9 +62,9 @@ target
 	excludesfile = C:/Users/HFZJ/git.ignore
 ```
 
-## 初始化本地仓库
+## IDEA集成Git
 
-### idea中集成git
+### IDEA中配置Git
 
 ![image.png](./assets/1678239482831-image.png)
 
@@ -72,39 +72,44 @@ target
 
 ![image.png](./assets/1678239553663-image.png)
 
-* 找到项目所在的路径
 
-![image.png](./assets/1678239625197-image.png)
+### 用Git做版本控制
 
-* 将项目使用git管理
 
 ![image.png](./assets/1678239759220-image.png)
 
-* 选择管控的项目
 
 ![image.png](./assets/1678239792195-image.png)
 
-* 目录多了.git文件
+
+![image.png](./assets/1678239625197-image.png)
+
 
 ![image.png](./assets/1678239869425-image.png)
 
-## 添加到暂存区
+目录多了.git文件
+
+
+### 添加到暂存区
 
 ### 添加之前
 
-> 变红色
+> 没有版本控制是红色
 
 ![image.png](./assets/1678239963160-image.png)
 
 ### 添加后
 
-> 变绿色
+> 使用add命令变绿色
 
 ![image.png](./assets/1678240198228-image.png)
 
 ![image.png](./assets/1678240227623-image.png)
 
+
+
 ### 提交到本地仓库
+
 
 ![image.png](./assets/1678240301552-image.png)
 
@@ -117,12 +122,12 @@ target
 
 ![image.png](./assets/1678242226846-image.png)
 
-
 ### 修改文件
 
 > 变蓝色
 
 ![image.png](./assets/1678242348677-image.png)
+
 
 
 ## 切换分支
@@ -131,19 +136,21 @@ target
 
 ![image.png](./assets/1678242578099-image.png)
 
-
 ### 切换版本
+
+> 分支- Checkout
 
 ![image.png](./assets/1678242720758-image.png)
 
-
 ### 创建分支
+
+> Git - New Branch...
 
 ![image.png](./assets/1678243092249-image.png)
 
+切换到新创建的分支
 
 ![image.png](./assets/1678243057823-image.png)
-
 
 ### 切换分支
 
@@ -159,8 +166,7 @@ target
 
 ![image.png](./assets/1678243402271-image.png)
 
-
-## 合并分支
+### 合并分支
 
 > 就是将A 分支上的代码合并到B分支上
 
@@ -170,20 +176,19 @@ target
 
 ![image.png](./assets/1678251661078-image.png)
 
-
 * 右下角切换分支
 
 ![image.png](./assets/1678251869652-image.png)
 
-
 * 合并分支到master
+  > Git - Branches - dev分支 - Merge Current into Current
+  >
 
 ![image.png](./assets/1678252678243-image.png)
 
 * 没有冲突时会自动合并
 
 ![image.png](./assets/1678252764842-image.png)
-
 
 * 有冲突时要解决冲突再合并
 
@@ -195,18 +200,21 @@ target
 
 ![image.png](./assets/1678254707051-image.png)
 
-
 ![image.png](./assets/1678254653290-image.png)
 
-
-## 解决冲突
+### 解决冲突
 
 ![image.png](./assets/1678254977803-image.png)
 
-
 ![image.png](./assets/1678254963048-image.png)
-
 
 * 不解决冲突
 
 ![image.png](./assets/1678254775278-image.png)
+
+
+## Git分支详解
+
+> 顾名思义，在git中，分支指的是从主线上分离出来进行另外的操作，既不影响主线，主线又可以继续干它的事，
+>
+> 它可用来解决临时需求；当分支做完事后可合并到主线上，而分支的任务完成可以删掉了。

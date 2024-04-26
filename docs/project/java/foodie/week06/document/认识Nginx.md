@@ -10,11 +10,19 @@
 
 ## 正常代理
 
+> 代理客户端，向服务端发送请求
+>
+> 客户端要访问google.com , 代理服务器 用google.com 再去访问
+>
+> 例子： 代购   翻墙（大陆-港澳-国外， 大陆服务器是无法直接访问国外的服务器，可以让港澳的服务器帮忙访问）
+
 ![image.png](./assets/1712232326087-image.png)
 
 ## 反向代理
 
 > 用户 请求目标服务器， 由代理服务器决定访问哪个IP
+>
+> 用户 网购时 访问的都是taobao.com， 但是真实的服务器肯定不是taobao.com    由中间的nginx 将用户的请求转发到具体的服务器
 
 ![image.png](./assets/1712232498788-image.png)
 
@@ -109,7 +117,14 @@
 
 ![image.png](./assets/1712238068271-image.png)
 
-
 ## 进程模型解析
 
 ![image.png](./assets/image.png)
+
+## Worker抢占机制
+
+![image.png](./assets/1712996086013-image.png)
+
+## Linux事件处理
+
+![image.png](./assets/1712996609443-image.png)

@@ -3,14 +3,43 @@
 ## 资源导航
 
 <div>
-    <a href="https://www.code-nav.cn/" target="_blank">
-        <div class="my-nav-item">
-            <div title="编程导航"><img src="./document/images/code-nav.png" style="height: 35px;">
-                <div style="height: 40px; float: right;">编程导航</div>
+     <div class="cc-row cc-row-gutter-20"> 
+        <a href="https://www.code-nav.cn/" target="_blank">
+            <div class="my-nav-item">
+                <div title="编程导航"><img src="./document/images/code-nav.png" style="height: 35px;">
+                    <div style="height: 40px; float: right;">编程导航</div>
+                </div>
+                <div title="东半球最好的编程资源导航。" class="cc-nav-des">
+                    东半球最好的编程资源导航
+                </div>
             </div>
-            <div title="东半球最好的编程资源导航" class="cc-nav-des">东半球最好的编程资源导航</div>
-        </div>
-    </a>
+        </a>
+    </div>
+    <div class="cc-row cc-row-gutter-20"> 
+        <a href="https://yucongming.com" target="_blank">
+            <div class="my-nav-item">
+                <div title="鱼聪明"><img src="./document/images/code-nav.png" style="height: 35px;">
+                    <div style="height: 40px; float: right;">鱼聪明</div>
+                </div>
+                <div title="智能 AI 助手，写书问答绘画。" class="cc-nav-des">
+                    智能 AI 助手，写书问答绘画。
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="cc-row cc-row-gutter-20"> 
+        <a href="https://codecopy.cn" target="_blank">
+            <div class="my-nav-item">
+                <div title="代码小抄"><img src="./document/images/code-nav.png" style="height: 35px;">
+                    <div style="height: 40px; float: right;">代码小抄</div>
+                </div>
+                <div title="简单易用的代码分享神器。" class="cc-nav-des">
+                    简单易用的代码分享神器。
+                </div>
+            </div>
+        </a>
+    </div>
+
 </div>
 
 ## 常用搜索
