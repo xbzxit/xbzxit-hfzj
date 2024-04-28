@@ -83,6 +83,7 @@ module.exports = {
                             {text : 'Nginx', link : '/java/middleLevel/Nginx/'},
                             {text : 'SpringSecurity', link : '/java/middleLevel/SpringSecurity/'},
                             {text : 'SpringCloud', link : '/java/middleLevel/SpringCloud/'},
+                            {text : 'SpringCloudAlibaba', link : '/java/middleLevel/SpringCloudAlibaba/'},
                             {text : 'CICD', link : '/java/middleLevel/CICD/'},
                         ],
                     },
@@ -756,25 +757,22 @@ module.exports = {
                     'document/从2.2.x和H版开始说起',
                     'document/微服务架构编码构建',
                     'document/Eureka服务注册与发现',
-                    'document/Zookeeper服务注册与发现',
-                    'document/Consul服务注册与发现',
                     'document/Ribbon负载均衡服务调用',
                     'document/OpenFeign服务接口调用',
-                    'document/Hystrix断路器',
                     'document/Zuul路由网关',
-                    'document/Gateway新一代网关',
-                    'document/config分布式配置中心',
-                    'document/Bus消息总线',
-                    'document/Stream消息驱动',
-                    'document/Sleuth分布式请求链路追踪',
-
-                    'document/Alibaba入门简介',
-                    'document/Nacos服务注册和配置中心',
-                    'document/Sentinel实现熔断与限流',
-                    'document/Seata处理分布式事务',
-
                 ]
             }],
+            '/java/middleLevel/SpringCloudAlibaba/' : [{
+                title : 'SpringCloud',
+                collapsable : false,
+                children : [
+                    '',
+                    'document/Nacos入门介绍',
+                    'document/Nacos配置中心',
+                    'document/Nacos集群',
+                ]
+            }],
+
             '/java/middleLevel/encode/' : [{
                 title : '安全密码学',
                 collapsable : false,

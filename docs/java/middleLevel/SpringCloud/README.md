@@ -22,9 +22,6 @@ Spring Cloud也是一样，它将现在非常流行的一些技术整合到一�
 * Zuul、Gateway：服务网关
 * Ribbon：负载均衡
 * Feign：服务调用
-* Hystrix或Resilience4j：熔断器
-* Nacos 注册中心 配置中心
-* Sentinel 熔断限流
-* Seata 分布式事务
+* Hystrix：熔断器
 
 :::
