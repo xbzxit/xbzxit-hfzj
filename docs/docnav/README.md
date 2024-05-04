@@ -15,6 +15,18 @@
             </div>
         </a>
     </div>
+   <div class="cc-row cc-row-gutter-20"> 
+        <a href="https://www.codefather.cn/" target="_blank">
+            <div class="my-nav-item">
+                <div title="鱼皮编程宝典"><img src="./document/images/code-nav.png" style="height: 35px;">
+                    <div style="height: 40px; float: right;">鱼皮编程宝典</div>
+                </div>
+                <div title="鱼皮大法。" class="cc-nav-des">
+                    鱼皮大法
+                </div>
+            </div>
+        </a>
+    </div>
     <div class="cc-row cc-row-gutter-20"> 
         <a href="https://yucongming.com" target="_blank">
             <div class="my-nav-item">

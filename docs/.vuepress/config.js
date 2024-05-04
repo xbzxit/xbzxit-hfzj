@@ -84,7 +84,14 @@ module.exports = {
                             {text : 'SpringSecurity', link : '/java/middleLevel/SpringSecurity/'},
                             {text : 'SpringCloud', link : '/java/middleLevel/SpringCloud/'},
                             {text : 'SpringCloudAlibaba', link : '/java/middleLevel/SpringCloudAlibaba/'},
-                            {text : 'CICD', link : '/java/middleLevel/CICD/'},
+                        ],
+                    },
+                    {
+                        text: 'Java高级',
+                        items : [
+                            {text : 'Docker', link : '/java/highLevel/Docker/'},
+                            {text : 'Jenkins', link : '/java/highLevel/Jenkins/'},
+                            {text : 'CICD', link : '/java/highLevel/CICD/'},
                         ],
                     },
                 ],
@@ -773,27 +780,21 @@ module.exports = {
                 ]
             }],
 
-            '/java/middleLevel/encode/' : [{
-                title : '安全密码学',
+
+            '/java/highLevel/Docker/' : [{
+                title : 'Docker',
                 collapsable : false,
                 children : [
                     '',
-                    'document/密码学介绍'
+                    'document/认识Docker',
                 ]
             }],
-            '/java/middleLevel/CICD/' : [{
+            '/java/highLevel/CICD/' : [{
                 title : '持续部署',
                 collapsable : false,
                 children : [
                     '',
-                    'document/Linux服务器',
-                    'document/Jdk',
-                    'document/Git',
                     'document/GitLab',
-                    'document/Maven',
-                    'document/nexus',
-                    'document/SonarQube',
-                    'document/Jenkins'
                 ]
             }],
             //endregion

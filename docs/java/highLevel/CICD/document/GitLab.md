@@ -20,11 +20,9 @@ sudo systemctl enable postfix
 sudo systemctl start postfix
 ```
 
-
 ### sudo rpm -ivh gitlab-ce-9.5.4-ce.0.el6.x86_64.rpm
 
 ![image.png](./assets/image.png)
-
 
 ## 配置
 
@@ -57,13 +55,11 @@ gitlab-ctl start
 gitlab-ctl stop
 ```
 
-
 ## 访问
 
 > http://192.168.43.45
 
 ![image.png](./assets/1678757498059-image.png)
-
 
 ## 彻底卸载GitLab
 
@@ -87,7 +83,6 @@ sudo rpm -e gitlab-ce
 
 ![image.png](./assets/1678757627780-image.png)
 
-
 ### 删除gitlab文件
 
 ```shell
@@ -96,6 +91,5 @@ find / -name gitlab|xargs rm -rf 删除所有包含gitlab的文件及目录
 ```
 
 ![image.png](./assets/1678757673213-image.png)
-
 
 ![image.png](./assets/1678757677754-image.png)
