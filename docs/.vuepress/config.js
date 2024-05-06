@@ -90,7 +90,6 @@ module.exports = {
                         text: 'Java高级',
                         items : [
                             {text : 'Docker', link : '/java/highLevel/Docker/'},
-                            {text : 'Jenkins', link : '/java/highLevel/Jenkins/'},
                             {text : 'CICD', link : '/java/highLevel/CICD/'},
                         ],
                     },
@@ -786,7 +785,8 @@ module.exports = {
                 collapsable : false,
                 children : [
                     '',
-                    'document/认识Docker',
+                    'document/Docker简介',
+                    'document/Docker安装',
                 ]
             }],
             '/java/highLevel/CICD/' : [{
