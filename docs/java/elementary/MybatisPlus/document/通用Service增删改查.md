@@ -1,4 +1,4 @@
-# CRUD接口
+# 通用Service增删改查
 
 ## 通用Service
 
@@ -22,7 +22,6 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
 
 }
 ```
-
 
 ## CURD基础用法
 
@@ -73,7 +72,6 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
 
 ```
 
-
 ### 删除
 
 ```java
@@ -117,7 +115,6 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
 
 ```
 
-
 ### 修改
 
 ```java
@@ -133,7 +130,6 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
     }
 
 ```
-
 
 ### 查询
 

@@ -677,9 +677,10 @@ module.exports = {
                 children : [
                     '',
                     'document/MybatisPlus入门',
-                    'document/CRUD接口',
+                    'document/通用Service增删改查',
                     'document/常用注解',
-                    'document/条件构造器',
+                    'document/Wrapper条件构造器',
+                    'document/MybatisPlus联表插件',
                     'document/插件',
                     'document/通用枚举',
                     'document/代码生成器',

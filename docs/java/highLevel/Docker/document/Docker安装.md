@@ -24,7 +24,7 @@ uname -a
 
 ![image.png](./assets/1714957564920-image.png)
 
-* 写在旧版本
+* 卸载旧版本
 
 ```shell
 sudo yum remove docker \
@@ -145,7 +145,6 @@ rm -rf /var/lib/containerd
 
 > [介绍](https://promotion.aliyun.com/ntms/act/kubernetes.html)
 
-
 ### 重启服务器
 
 ```shell
@@ -154,11 +153,9 @@ systemctl daemon-reload
 systemctl restart docker
 ```
 
-
 ## 永远的HelloWorld
 
 ![image.png](./assets/1714959445274-image.png)
-
 
 ![image.png](./assets/1714959683444-image.png)
 
@@ -173,6 +170,5 @@ systemctl restart docker
 > 而docker由于直接利用宿主机的操作系统,则省略了返回过程,因此新建一个docker容器只需要几秒钟。
 
 ![image.png](./assets/1714959628516-image.png)
-
 
 ![image.png](./assets/1714959655173-image.png)
