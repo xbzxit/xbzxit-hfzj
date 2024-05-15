@@ -48,6 +48,10 @@
 
 > Java8 中的 Collection 接口被扩展，提供了两个获取流的方法 ：
 
+![image.png](./assets/1715742859845-image.png)
+
+![image.png](./assets/1715742883445-image.png)
+
 ```java
 default Stream<E> stream();  返回一个顺序流
 
@@ -57,6 +61,9 @@ default Stream<E> parallelStream(); 返回一个并行流
 ### Arrays
 
 > Java8 中的 Arrays 的静态方法 stream() 可以获取数组流：
+
+![image.png](./assets/1715743000501-image.png)
+
 
 ```java
 static <T> Stream<T> stream(T[] array);
@@ -69,6 +76,9 @@ public static DoubleStream stream(double[] array)
 
 ### Stream.of
 
+![image.png](./assets/1715743108547-image.png)
+
+
 > 可以使用静态方法 Stream.of(), 通过显示值创建一个流。它可以接收任意数量的参数
 
 ```java
@@ -78,6 +88,8 @@ public static<T> Stream<T> of(T... values);
 ### 函数创建
 
 > 可以使用静态方法 Stream.iterate() 和Stream.generate(), 创建无限流。
+
+![image.png](./assets/1715743092303-image.png)
 
 ```java
 //迭代
@@ -91,6 +103,9 @@ public static<T> Stream<T> generate(Supplier<T> s) :
 
 > 多个 中间操作可以连接起来形成一个 流水线，除非流水线上触发终止操作，否则 中间操作不会执行任何的 处理！
 > 而在 终止操作时一次性全部 处理，称为“惰性求值”。
+
+![image.png](./assets/1715743156664-image.png)
+
 
 ### 筛选与切片
 
@@ -166,47 +181,46 @@ reduce(BinaryOperator b)        可以将流中元素反复结合起来，得到
 > 但是 Collectors 实用类提供了很多静态方法，可以方便地创建常见收集器实例，具体方法与实例如下表：
 
 ```java
-方法 返回类型 作用
-toList   List<T>   把流中元素收集到List
+// stream - List<T>
 List<Employee>   emps=   list.stream().collect(Collectors.toList());
 
-toSet   Set<T>   把流中元素收集到Set
+// stream - Set<T>
 Set<Employee>   emps=   list.stream().collect(Collectors.toSet());
 
-toCollection   Collection<T>   把流中元素收集到创建的集合
+// 把stream中的元素收集到新创建的集合
 Collection<Employee>emps=list.stream().collect(Collectors.toCollection(ArrayList::new));
 
-counting   Long   计算流中元素的个数
+// 统计stream中的元素
 long   count   =   list.stream().collect(Collectors.counting());
 
-summingInt   Integer   对流中元素的整数属性求和
+// 对stream中的元素属性 整数求和
 inttotal=list.stream().collect(Collectors.summingInt(Employee::getSalary));
 
-averagingInt   Double   计算流中元素Integer属性的平均值
+// 对stream中的元素属性 整数 计算平均值
 doubleavg=   list.stream().collect(Collectors.averagingInt(Employee::getSalary));
 
-summarizingInt   IntSummaryStatistics   收集流中Integer属性的统计值。如：平均值
-IntSummaryStatisticsiss=   list.stream().collect(Collectors.summarizingInt(Employee::getSalary));
+// 收集流中Integer属性的统计值。如：平均值
+IntSummaryStatisticsiss =   list.stream().collect(Collectors.summarizingInt(Employee::getSalary));
 
-joining   String   连接流中每个字符串
+// 连接流中每个字符串
 String   str=   list.stream().map(Employee::getName).collect(Collectors.joining());
 
-maxBy   Optional<T>   根据比较器选择最大值
+// 根据比较器选择最大值
 Optional<Emp>max=   list.stream().collect(Collectors.maxBy(comparingInt(Employee::getSalary)));
 
-minBy   Optional<T>   根据比较器选择最小值
+// 根据比较器选择最小值
 Optional<Emp>   min   =   list.stream().collect(Collectors.minBy(comparingInt(Employee::getSalary)));
 
-reducing   归约产生的类型   从一个作为累加器的初始值开始，利用BinaryOperator与流中元素逐个结合，从而归约成单个值
+// 从一个作为累加器的初始值开始，利用BinaryOperator与流中元素逐个结合，从而归约成单个值
 inttotal=list.stream().collect(Collectors.reducing(0,   Employee::getSalar,   Integer::sum));
 
-collectingAndThen   转换函数返回的类型   包裹另一个收集器，对其结果转换函数
+// 转换函数返回的类型   包裹另一个收集器，对其结果转换函数
 inthow=   list.stream().collect(Collectors.collectingAndThen(Collectors.toList(),   List::size));
 
-groupingBy   Map<K,   List<T>>   根据某属性值对流分组，属性为K，结果为V
+// 根据某属性值对流分组，属性为K，结果为V
 Map<Emp.Status,   List<Emp>>   map=   list.stream().collect(Collectors.groupingBy(Employee::getStatus));
 
-partitioningBy   Map<Boolean,   List<T>>   根据true或false进行分区
+// 根据true或false进行分区
 Map<Boolean,List<Emp>>vd=   list.stream().collect(Collectors.partitioningBy(Employee::getManage));
 
 ```

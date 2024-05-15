@@ -524,6 +524,7 @@ module.exports = {
                     'document/函数式接口',
                     'document/方法引用与构造器引用',
                     'document/StreamAPI',
+                    'document/Stream实战',
                     'document/接口默认方法与静态方法',
                     'document/新时间日期API',
                     'document/其他新特性',
